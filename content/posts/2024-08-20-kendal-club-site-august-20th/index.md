@@ -20,18 +20,10 @@ Walked about 20 mins to a small farm shop with good cakes and viewing of the cow
 
 <https://maps.app.goo.gl/vGgzoUDrE2JG5ZWt5?g_st=com.google.maps.preview.copy>
 
-[
 ![](kendal-club-site-august-20th-1.jpg)
-](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg81LSntSRrgKXenUs5Qxcu_zaO-00oEd9gzd_PySHWgD4HrLSY7JksISE6DaOKraGU-ISFgbjIonw9J6qx-Ce65dEUgH0ZG_3mCNufqIWboGTytxC6Voxe7Pt7yGrE9TMu5wDXoLCtZTVxp3eSmnJPhnwPCQkVFUNykTxJ3HNdpvD_cvGs9375xV6bH2k/s4032/IMG_2292.jpeg)
 
-[
 ![](kendal-club-site-august-20th-2.jpg)
-](https://loganvantravels.great-site.net/wp-content/uploads/2026/08/Kendal-Club-Site.-August-20th-2026-1788202284.jpeg)
 
-[
 ![](kendal-club-site-august-20th-3.jpg)
-](https://loganvantravels.great-site.net/wp-content/uploads/2026/08/Kendal-Club-Site.-August-20th-2026-1788202285.jpeg)
 
-[
 ![](kendal-club-site-august-20th-4.jpg)
-](https://loganvantravels.great-site.net/wp-content/uploads/2026/08/Kendal-Club-Site.-August-20th-2026-1788202285_1.jpeg)

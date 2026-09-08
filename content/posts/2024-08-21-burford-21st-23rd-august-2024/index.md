@@ -1,8 +1,8 @@
 ---
-title: "Burford"
+title: Burford
 date: 2024-08-21
 draft: false
-slug: "burford-21st-23rd-august-2024"
+slug: burford-21st-23rd-august-2024
 wp_published: 2024-08-22
 ---
 
@@ -18,26 +18,14 @@ The villages round here are just what you imagine, lovely cottage’s in local s
 
 <https://maps.app.goo.gl/XjByP75pivYUmFTQ7?g_st=com.google.maps.preview.copy>
 
-[
 ![](burford-21st-23rd-august-2024-1.jpg)
-](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhB_SD14MPzUsc1sLXjWb7_UDisztvKaPImtrv8qEudHWDCX9tqT2B2EnA5q9IXBpT-cavSHYob0Bt_nX4top5vw3Hyn7lT7c7H4H312-2kQuXNUJizjdtfMgnkZ8SKjP9x_Q73J7E5_1MEB9a6d6BQxIrPUs1JfUHjLLpvl4d9_4Ot6uc1BscT-A3UWFg/s5712/IMG_2295.jpeg)
 
-[
 ![](burford-21st-23rd-august-2024-2.jpg)
-](https://loganvantravels.great-site.net/wp-content/uploads/2026/08/Burford-21st-23rd-August-2024-2026-1788202280.jpeg)
 
-[
 ![](burford-21st-23rd-august-2024-3.jpg)
-](https://loganvantravels.great-site.net/wp-content/uploads/2026/08/Burford-21st-23rd-August-2024-2026-1788202281.jpeg)
 
-[
 ![](burford-21st-23rd-august-2024-4.jpg)
-](https://loganvantravels.great-site.net/wp-content/uploads/2026/08/Burford-21st-23rd-August-2024-2026-1788202282.jpeg)
 
-[
 ![](burford-21st-23rd-august-2024-5.jpg)
-](https://loganvantravels.great-site.net/wp-content/uploads/2026/08/Burford-21st-23rd-August-2024-2026-1788202283.jpeg)
 
-[
 ![](burford-21st-23rd-august-2024-6.jpg)
-](https://loganvantravels.great-site.net/wp-content/uploads/2026/08/Burford-21st-23rd-August-2024-2026-1788202283_1.jpeg)

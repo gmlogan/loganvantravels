@@ -14,13 +14,9 @@ Lynn was running her pop up  shop which was the main as reason to go and into s
 
 Didn’t actually take any photos so the ones attached are from a New Year visit to the annual fireball event from at least 10 years before
 
-[
 ![](stonehaven-queen-elizabeth-park-1.jpg)
-](http://loganvantravels.great-site.net/wp-content/uploads/2024/07/IMG_20181231_220632.jpg)
 
-[
 ![](stonehaven-queen-elizabeth-park-2.jpg)
-](https://loganvantravels.great-site.net/wp-content/uploads/2026/08/IMG_20190101_000005.JPG)
 
 Queen Elizabeth Caravan Site, Stonehaven
 

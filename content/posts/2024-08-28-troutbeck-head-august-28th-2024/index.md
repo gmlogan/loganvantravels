@@ -20,26 +20,14 @@ Dog walks straight from the site into the woods above, would definitely stay aga
 
 <https://maps.google.com/?ftid=0x487ce79b533aa8f1:0x3b1e4dfdc26a0037&entry=gps&lucs=,94224825,94227247,94227248,47071704,47069508,94218641,94203019,47084304,94208458,94208447&g_st=com.google.maps.preview.copy>
 
-[
 ![](troutbeck-head-august-28th-2024-1.jpg)
-](https://loganvantravels.great-site.net/wp-content/uploads/2024/08/IMG_2366-c6498a98-scaled.jpg)
 
-[
 ![](troutbeck-head-august-28th-2024-2.jpg)
-](https://loganvantravels.great-site.net/wp-content/uploads/2024/08/IMG_2373-69e52ddf-scaled.jpg)
 
-[
 ![](troutbeck-head-august-28th-2024-3.jpg)
-](https://loganvantravels.great-site.net/wp-content/uploads/2024/08/IMG_2375-d1417e8b-scaled.jpg)
 
-[
 ![](troutbeck-head-august-28th-2024-4.jpg)
-](https://loganvantravels.great-site.net/wp-content/uploads/2024/08/IMG_2374-828fba7d-scaled.jpg)
 
-[
 ![](troutbeck-head-august-28th-2024-5.jpg)
-](https://loganvantravels.great-site.net/wp-content/uploads/2024/08/IMG_2369-fcead68b-scaled.jpg)
 
-[
 ![](troutbeck-head-august-28th-2024-6.jpg)
-](https://loganvantravels.great-site.net/wp-content/uploads/2024/08/IMG_2371-a6055477-scaled.jpg)

@@ -12,9 +12,7 @@ Huge field area on a farm that feels really remote. Basic facilities of toilet a
 
 Staying here for 1 night but leaving the van all week parked while we cycle the Rebellion way with Angie and David Sword.
 
-[
 ![](everetts-farm-campsite-norfolk-1.jpg)
-](http://loganvantravels.great-site.net/wp-content/uploads/2023/09/everetts-farm-campsite-norfolk-1778632538.jpg)
 
 No1 Everetts Farm, Thetford IP26 5AR
 
