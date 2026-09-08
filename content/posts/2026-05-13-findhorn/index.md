@@ -1,9 +1,10 @@
 ---
-title: "Findhorn"
+title: Findhorn
 date: 2026-05-13
 draft: false
-slug: "findhorn"
+slug: findhorn
 wp_published: 2026-05-18
+campsites: Independent
 ---
 
 13th-14th May 2026

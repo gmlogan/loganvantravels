@@ -11,14 +11,6 @@
       "installTools": false
     }
   },
-  "customizations": {
-    "vscode": {
-      "extensions": ["eliostruyf.vscode-front-matter"],
-      "settings": {
-        "frontMatter.dashboard.openOnStart": true
-      }
-    }
-  },
   "postCreateCommand": "git submodule update --init --recursive",
   "forwardPorts": [1313],
   "portsAttributes": {

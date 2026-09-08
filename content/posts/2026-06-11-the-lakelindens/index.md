@@ -1,9 +1,10 @@
 ---
-title: "The Lake@Lindens"
+title: The Lake@Lindens
 date: 2026-06-11
 draft: false
-slug: "the-lakelindens"
+slug: the-lakelindens
 wp_published: 2026-06-11
+campsites: Aire
 ---
 
 11th-12th June 2026

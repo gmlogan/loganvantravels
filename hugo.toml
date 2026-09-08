@@ -7,6 +7,19 @@ summaryLength = 25
 [permalinks]
   posts = '/:slug/'
 
+[taxonomies]
+  campsite = "campsites"
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 10
+
+[[menu.main]]
+  name = "Campsite types"
+  url = "/campsites/"
+  weight = 20
+
 [params]
   mainSections = ["posts"]
 

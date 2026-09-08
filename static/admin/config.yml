@@ -7,6 +7,16 @@ media_folder: ''
 public_folder: ''
 
 collections:
+  - name: pages
+    label: Pages
+    files:
+      - name: about
+        label: About
+        file: content/about.md
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Body, name: body, widget: markdown }
+
   - name: posts
     label: Posts
     folder: content/posts
@@ -15,10 +25,22 @@ collections:
     public_folder: ''
     create: true
     slug: "{{slug}}"
+    view_filters:
+      - { label: 'Campsite: CCC', field: campsites, pattern: CCC }
+      - { label: 'Campsite: CAMC', field: campsites, pattern: CAMC }
+      - { label: 'Campsite: Aire', field: campsites, pattern: Aire }
+      - { label: 'Campsite: Independent', field: campsites, pattern: Independent }
+      - { label: 'Campsite: Pub', field: campsites, pattern: Pub }
+      - { label: 'Campsite: Off-Grid', field: campsites, pattern: 'Off-Grid' }
+      - { label: 'Campsite: untagged', field: campsites, pattern: '^$' }
+    view_groups:
+      - { label: 'Campsite type', field: campsites }
     fields:
       - { label: Title, name: title, widget: string }
       - { label: Date, name: date, widget: datetime, format: 'YYYY-MM-DD', date_format: 'YYYY-MM-DD', time_format: false }
       - { label: Draft, name: draft, widget: boolean, default: false }
       - { label: Slug, name: slug, widget: string }
       - { label: Original blog date, name: wp_published, widget: datetime, format: 'YYYY-MM-DD', date_format: 'YYYY-MM-DD', time_format: false, required: false }
+      - { label: Campsite type, name: campsites, widget: select, required: false,
+          options: [CCC, CAMC, Aire, Independent, Pub, Off-Grid] }
       - { label: Body, name: body, widget: markdown }

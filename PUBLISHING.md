@@ -43,10 +43,6 @@ Add `2026-07-04` as a second argument to date it other than today. Then write
 the body, drop images in that **same folder** (`![](image-1.jpg)`), and run the
 `git add / commit / push` cycle.
 
-**In Front Matter CMS** — the "Create content" button uses the `post` content
-type from `frontmatter.json`: it makes the `YYYY-MM-DD-slug/index.md` bundle
-with the front matter filled in.
-
 **By hand / `hugo new`** — `hugo new content posts/some-place/index.md` uses
 `archetypes/posts.md`; rename the folder to add the `YYYY-MM-DD-` prefix and fix
 the `slug`.
@@ -60,8 +56,13 @@ date: 2026-07-05
 draft: false
 slug: "some-place"
 wp_published: 2026-07-05   # original blog date; = date for new posts
+campsites: CCC             # optional; one of CCC, CAMC, Aire, Independent, Pub, Off-Grid
 ---
 ```
+
+`campsites` is a Hugo taxonomy: it builds `/campsites/` (all types) and
+`/campsites/<type>/` (posts of that type), shows as a pill on the post, and is
+linked from the "Campsite types" nav item. Omit the line for no tag.
 
 ---
 

@@ -1,9 +1,10 @@
 ---
-title: "Robin Hoods Bay"
-date: "2026-06-12"
+title: Robin Hoods Bay
+date: 2026-06-12
 draft: false
-slug: "robin-hoods-bay"
-wp_published: "2026-07-02"
+slug: robin-hoods-bay
+wp_published: 2026-07-02
+campsites: Independent
 ---
 
 12th-14th June 2026

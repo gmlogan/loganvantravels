@@ -1,9 +1,10 @@
 ---
-title: "Oakwood, Aviemore"
+title: Oakwood, Aviemore
 date: 2026-05-11
 draft: false
-slug: "oakwood-aviemore"
+slug: oakwood-aviemore
 wp_published: 2026-05-11
+campsites: Independent
 ---
 
 11th-13th May 2026

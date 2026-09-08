@@ -1,9 +1,10 @@
 ---
-title: "The Kings Head, Market Rasen, Lincoln"
-date: "2026-06-14"
+title: The Kings Head, Market Rasen, Lincoln
+date: 2026-06-14
 draft: false
-slug: "the-kings-head-market-rasen-lincoln"
-wp_published: "2026-07-08"
+slug: the-kings-head-market-rasen-lincoln
+wp_published: 2026-07-08
+campsites: Pub
 ---
 
 14th June 2026
