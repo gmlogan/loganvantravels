@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: gmlogan/loganvantravels
-  branch: cms-test
+  branch: main
 
 media_folder: ''
 public_folder: ''
