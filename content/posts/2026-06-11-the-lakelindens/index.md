@@ -5,6 +5,9 @@ draft: false
 slug: the-lakelindens
 wp_published: 2026-06-11
 campsites: Aire
+map: ''
+trips:
+  - England 2026
 ---
 
 11th-12th June 2026
