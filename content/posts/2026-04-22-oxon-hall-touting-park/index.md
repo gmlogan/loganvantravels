@@ -2,7 +2,7 @@
 title: "Oxon Hall Touring Park"
 date: 2026-04-22
 draft: false
-slug: "oxon-hall-touting-park"
+slug: "oxon-hall-touring-park"
 wp_published: 2026-04-23
 ---
 
