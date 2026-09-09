@@ -13,7 +13,7 @@ summaryLength = 25
 
 [[menu.main]]
   name = "About"
-  url = "/about/"
+  url = "/pages/about/"
   weight = 10
 
 [[menu.main]]
