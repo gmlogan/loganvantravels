@@ -25,6 +25,11 @@ collections:
     public_folder: ''
     create: true
     slug: "{{slug}}"
+    sortable_fields:
+      fields: [date, title, wp_published]
+      default:
+        field: date
+        direction: descending
     view_filters:
       - { label: 'Campsite: CCC', field: campsites, pattern: CCC }
       - { label: 'Campsite: CAMC', field: campsites, pattern: CAMC }
