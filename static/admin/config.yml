@@ -20,7 +20,7 @@ collections:
     slug: '{{slug}}'
     fields:
       - { label: Title, name: title, widget: string }
-      - { label: Slug, name: slug, widget: string }
+      - { label: Slug, name: slug, widget: string, required: false, hint: "Leave blank to derive from the title" }
       - { label: Body, name: body, widget: markdown }
   - name: posts
     label: Posts
@@ -49,7 +49,7 @@ collections:
       - { label: Title, name: title, widget: string }
       - { label: Date, name: date, widget: datetime, format: 'YYYY-MM-DD', date_format: 'YYYY-MM-DD', time_format: false }
       - { label: Draft, name: draft, widget: boolean, default: false }
-      - { label: Slug, name: slug, widget: string }
+      - { label: Slug, name: slug, widget: string, required: false, hint: "Leave blank to derive from the title" }
       - { label: Original blog date, name: wp_published, widget: datetime, format: 'YYYY-MM-DD', date_format: 'YYYY-MM-DD', time_format: false, required: false }
       - { label: Campsite type, name: campsites, widget: select, required: false,
           options: [CCC, CAMC, Aire, Independent, Pub, Off-Grid] }
