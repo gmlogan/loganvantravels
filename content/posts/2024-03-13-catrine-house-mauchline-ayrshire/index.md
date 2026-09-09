@@ -8,11 +8,11 @@ wp_published: 2024-03-13
 
 13th March 2024
 
-One night again just with Cleo. Nice walled garden area, some road noise and the ground is sodden which is no suprise given last night. The pitch is on gravel and dry immediately around the door areas
+One night again just with Cleo. Nice walled garden area, some road noise and the ground is sodden which is no surprise given last night. The pitch is on gravel and dry immediately around the door areas
 
 Great walk down to the Ayr river on arrival.
 
-There is a club house with showers, toilets and sofas round a wood burner. Bit bit further round than convient in the middle of the night.
+There is a club house with showers, toilets and sofas round a wood burner. A bit further round than convenient in the middle of the night.
 
 https://maps.app.goo.gl/V62txx1zYPStL3QP7
 
