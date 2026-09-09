@@ -56,5 +56,22 @@ collections:
       - { label: Map link, name: map, widget: string, required: false,
           hint: "Any Google Maps share link; shows a 'View on map' button on the post" }
       - { label: Trip, name: trips, widget: list, required: false,
-          hint: "Trip(s) this stay belongs to, e.g. Scotland 2023 — builds /trips/<name>/" }
+          hint: "Trip(s) this stay belongs to, e.g. Scotland 2023 — must match the Trip name exactly" }
       - { label: Body, name: body, widget: markdown }
+
+  - name: trips
+    label: Trips
+    label_singular: Trip
+    folder: content/trips
+    path: '{{slug}}/_index'
+    extension: md
+    format: frontmatter
+    create: true
+    media_folder: ''
+    public_folder: ''
+    slug: '{{slug}}'
+    identifier_field: title
+    fields:
+      - { label: Trip name, name: title, widget: string,
+          hint: "Type this same text in a stay's Trip field to attach it" }
+      - { label: Summary, name: body, widget: markdown }

@@ -1,5 +1,16 @@
-{{/* project override: render the "campsites" taxonomy (Campsite type) as pills,
+{{/* project override: render the "trips" and "campsites" taxonomies as pills,
      replacing Ananke's stock tags partial. Nothing renders when a post has none. */}}
+{{ with .GetTerms "trips" }}
+  <ul class="pa0 mt3">
+    {{ range . }}
+      <li class="list di">
+        <a href="{{ .RelPermalink }}" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">
+          &#128205;&nbsp;{{ .LinkTitle }}
+        </a>
+      </li>
+    {{ end }}
+  </ul>
+{{ end }}
 {{ with .GetTerms "campsites" }}
   <ul class="pa0 mt3">
     {{ range . }}
