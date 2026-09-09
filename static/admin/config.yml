@@ -55,8 +55,9 @@ collections:
           options: [CCC, CAMC, Aire, Independent, Pub, Off-Grid] }
       - { label: Map link, name: map, widget: string, required: false,
           hint: "Any Google Maps share link; shows a 'View on map' button on the post" }
-      - { label: Trip, name: trips, widget: list, required: false,
-          hint: "Trip(s) this stay belongs to, e.g. Scotland 2023 — must match the Trip name exactly" }
+      - { label: Trip, name: trips, widget: relation, required: false, multiple: true,
+          collection: trips, search_fields: [title], value_field: title, display_fields: [title],
+          hint: "Pick from Trips (create the Trip first under the Trips collection)" }
       - { label: Body, name: body, widget: markdown }
 
   - name: trips
