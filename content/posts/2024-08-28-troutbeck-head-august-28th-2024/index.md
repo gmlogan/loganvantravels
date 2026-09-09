@@ -4,6 +4,7 @@ date: 2024-08-28
 draft: false
 slug: "troutbeck-head-august-28th-2024"
 wp_published: 2024-08-28
+campsites: CCC
 ---
 
 28th August 2024

@@ -4,6 +4,7 @@ date: 2023-05-24
 draft: false
 slug: "dingwall-ccc"
 wp_published: 2023-05-23
+campsites: CCC
 ---
 
 24th May 2023

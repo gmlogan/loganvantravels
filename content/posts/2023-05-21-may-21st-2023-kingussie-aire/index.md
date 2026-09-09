@@ -4,6 +4,7 @@ date: 2023-05-21
 draft: false
 slug: "may-21st-2023-kingussie-aire"
 wp_published: 2023-05-21
+campsites: Aire
 ---
 
 21st May 2023
