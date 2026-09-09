@@ -22,6 +22,6 @@ Driving across Shrewsbury it looks well worth a few days noising about
 
 <https://maps.app.goo.gl/ZodFkHCjzkJbWzYq5?g_st=ic>
 
-![](oxon-hall-touting-park-1.jpg)
+![](oxon-hall-touring-park-1.jpg)
 
-![](oxon-hall-touting-park-2.jpg)
+![](oxon-hall-touring-park-2.jpg)
