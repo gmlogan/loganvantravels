@@ -7,16 +7,21 @@ media_folder: ''
 public_folder: ''
 
 collections:
-  - name: pages
+  - name: pages          # ← added
     label: Pages
-    files:
-      - name: about
-        label: About
-        file: content/about.md
-        fields:
-          - { label: Title, name: title, widget: string }
-          - { label: Body, name: body, widget: markdown }
-
+    label_singular: Page
+    folder: content/pages
+    path: '{{slug}}/index'
+    media_folder: ''
+    public_folder: ''
+    create: true
+    extension: md
+    format: frontmatter
+    slug: '{{slug}}'
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Slug, name: slug, widget: string }
+      - { label: Body, name: body, widget: markdown }
   - name: posts
     label: Posts
     folder: content/posts
