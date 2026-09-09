@@ -10,9 +10,9 @@ wp_published: 2026-04-23
 
 First night with the new van we stayed close to the dealership in case of any issues, that way we would nip back the following morning.
 
-Only issue was is! We had forgotten to collect the extra bed for the dinner area before leaving, so 20 mins back in the morning.
+Only issue was is! We had forgotten to collect the extra bed for the dinning area before leaving, so 20 mins back in the morning.
 
-apathetic site was run by a small group that has 6 sites in the nearby area (Chester to North Wales), absolutely spotless and really well stocked site shop with food and all sorts of spares for caravans and motorhomes.
+The site Oxon Hall was run by a small group ( Morris Leisure) that has 6 sites in the nearby area (Chester to North Wales), absolutely spotless and really well stocked site shop with food and all sorts of spares for caravans and motorhomes.
 
 Had dinner in the Grapes about 5 mins walk away which was good and great value.
 
