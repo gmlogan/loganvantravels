@@ -5,6 +5,9 @@ draft: false
 slug: oakwood-aviemore
 wp_published: 2026-05-11
 campsites: Independent
+map: ''
+trips:
+  - North East 2026
 ---
 
 11th-13th May 2026
