@@ -7,7 +7,7 @@ wp_published: 2026-05-18
 campsites: Aire
 map: ''
 trips:
-  - England 2026
+  - North East 2026
 ---
 
 Coldstone near Banchory
