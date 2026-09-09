@@ -10,11 +10,17 @@ summaryLength = 25
 
 [taxonomies]
   campsite = "campsites"
+  trip = "trips"
 
 [[menu.main]]
   name = "About"
   url = "/pages/about/"
   weight = 10
+
+[[menu.main]]
+  name = "Trips"
+  url = "/trips/"
+  weight = 15
 
 [[menu.main]]
   name = "Campsites"

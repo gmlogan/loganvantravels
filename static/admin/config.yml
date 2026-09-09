@@ -55,4 +55,6 @@ collections:
           options: [CCC, CAMC, Aire, Independent, Pub, Off-Grid] }
       - { label: Map link, name: map, widget: string, required: false,
           hint: "Any Google Maps share link; shows a 'View on map' button on the post" }
+      - { label: Trip, name: trips, widget: list, required: false,
+          hint: "Trip(s) this stay belongs to, e.g. Scotland 2023 — builds /trips/<name>/" }
       - { label: Body, name: body, widget: markdown }
