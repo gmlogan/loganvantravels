@@ -5,7 +5,7 @@ draft: false
 slug: findhorn
 wp_published: 2026-05-18
 campsites: Independent
-map: ''
+map: https://maps.app.goo.gl/HP6Si2sArPaWuGru6?g_st=ic
 trips:
   - North East 2026
 ---
