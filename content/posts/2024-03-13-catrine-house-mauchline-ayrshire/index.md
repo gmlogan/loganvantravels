@@ -1,9 +1,13 @@
 ---
-title: "Catrine House, Mauchline, Ayrshire"
+title: Catrine House, Mauchline, Ayrshire
 date: 2024-03-13
 draft: false
-slug: "catrine-house-mauchline-ayrshire"
+slug: catrine-house-mauchline-ayrshire
 wp_published: 2024-03-13
+campsites: ''
+map: ''
+trips:
+  - Ayrshire 2024
 ---
 
 13th March 2024
