@@ -35,14 +35,6 @@ collections:
       default:
         field: date
         direction: descending
-    view_filters:
-      - { label: 'Campsite: CCC', field: campsites, pattern: CCC }
-      - { label: 'Campsite: CAMC', field: campsites, pattern: CAMC }
-      - { label: 'Campsite: Aire', field: campsites, pattern: Aire }
-      - { label: 'Campsite: Independent', field: campsites, pattern: Independent }
-      - { label: 'Campsite: Pub', field: campsites, pattern: Pub }
-      - { label: 'Campsite: Off-Grid', field: campsites, pattern: 'Off-Grid' }
-      - { label: 'Campsite: untagged', field: campsites, pattern: '^$' }
     view_groups:
       - { label: 'Campsite type', field: campsites }
     fields:
@@ -51,8 +43,9 @@ collections:
       - { label: Draft, name: draft, widget: boolean, default: false }
       - { label: Slug, name: slug, widget: string, required: false, hint: "Leave blank to derive from the title" }
       - { label: Original blog date, name: wp_published, widget: datetime, format: 'YYYY-MM-DD', date_format: 'YYYY-MM-DD', time_format: false, required: false }
-      - { label: Campsite type, name: campsites, widget: select, required: false,
-          options: [CCC, CAMC, Aire, Independent, Pub, Off-Grid] }
+      - { label: Campsite type, name: campsites, widget: relation, required: false,
+          collection: campsite_types, search_fields: [title], value_field: title, display_fields: [title],
+          hint: "Manage the list under Campsite types" }
       - { label: Map link, name: map, widget: string, required: false,
           hint: "Any Google Maps share link; shows a 'View on map' button on the post" }
       - { label: Trip, name: trips, widget: relation, required: false, multiple: true,
@@ -76,3 +69,20 @@ collections:
       - { label: Trip name, name: title, widget: string,
           hint: "Type this same text in a stay's Trip field to attach it" }
       - { label: Summary, name: body, widget: markdown }
+
+  - name: campsite_types
+    label: Campsite types
+    label_singular: Campsite type
+    folder: content/campsites
+    path: '{{slug}}/_index'
+    extension: md
+    format: frontmatter
+    create: true
+    media_folder: ''
+    public_folder: ''
+    slug: '{{slug}}'
+    identifier_field: title
+    fields:
+      - { label: Name, name: title, widget: string,
+          hint: "e.g. CCC, CAMC, Aire — this is what a post's Campsite type field stores" }
+      - { label: Description, name: body, widget: markdown, required: false }
