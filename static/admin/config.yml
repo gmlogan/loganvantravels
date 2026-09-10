@@ -3,10 +3,6 @@ backend:
   repo: gmlogan/loganvantravels
   branch: main
 
-# Saves go to a draft PR branch, not straight to main. Publish (merge) when
-# a batch of edits is ready — only then does the site rebuild.
-publish_mode: editorial_workflow
-
 media_folder: ''
 public_folder: ''
 

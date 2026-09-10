@@ -10,11 +10,10 @@ permissions:
   pages: write
   id-token: write
 
-# One deployment at a time; a newer push cancels an in-progress run so a
-# batch of merges collapses into a single build instead of queuing.
+# Allow one concurrent deployment, don't cancel an in-progress run.
 concurrency:
   group: "pages"
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 defaults:
   run:
