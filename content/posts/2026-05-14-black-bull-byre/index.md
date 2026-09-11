@@ -7,7 +7,8 @@ wp_published: 2026-05-18
 categories: campervan
 site-types: Aire
 map: ''
-tags: []
+tags:
+  - 2026-north-east
 ---
 
 Coldstone near Banchory
