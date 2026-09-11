@@ -4,7 +4,10 @@ date: 2026-06-14
 draft: false
 slug: the-kings-head-market-rasen-lincoln
 wp_published: 2026-07-08
+categories: campervan
+site-types: Aire
 map: https://maps.app.goo.gl/4sMx456hevyKSQtG9
+tags: []
 ---
 
 14th June 2026
