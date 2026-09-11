@@ -7,7 +7,8 @@ wp_published: 2026-05-18
 categories: campervan
 site-types: Aire
 map: https://maps.app.goo.gl/HP6Si2sArPaWuGru6?g_st=ic
-tags: []
+tags:
+  - 2026-north-east
 ---
 
 13th-14th May 2026
