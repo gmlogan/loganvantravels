@@ -50,14 +50,16 @@ collections:
           options: [Aire, CAMC, CCC, Independent, Off-Grid, Pub] }
       - { label: Map link, name: map, widget: string, required: false,
           hint: "Any Google Maps share link; shows a 'View on map' button on the post" }
-      - { label: Tags, name: tags, widget: list, required: false,
+      - { label: Trips, name: trips, widget: list, required: false,
           hint: "Only fill this in when a run of stays is worth calling out as a trip. Use a consistent lowercase-hyphenated name (e.g. 2026-zell-am-see) and copy/paste it into every stay in that trip rather than retyping it, to avoid near-duplicate trip names." }
+      - { label: Tags, name: tags, widget: list, required: false,
+          hint: "Free-form, ad-hoc labels for linking stays together — no fixed list, use whatever's useful." }
       - { label: Body, name: body, widget: markdown }
 
   - name: trip_pages
     label: Trip pages
     label_singular: Trip page
-    folder: content/tags
+    folder: content/trips
     path: '{{slug}}/_index'
     extension: md
     format: frontmatter
@@ -68,7 +70,7 @@ collections:
     identifier_field: title
     fields:
       - { label: Trip name, name: title, widget: string,
-          hint: "Must exactly match the trip name used in a stay's Tags field, e.g. 2026-north-east" }
+          hint: "Must exactly match the trip name used in a stay's Trips field, e.g. 2026-north-east" }
       - { label: Intro, name: body, widget: markdown, required: false }
 
   - name: category_pages

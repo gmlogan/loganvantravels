@@ -9,6 +9,7 @@ summaryLength = 25
   pages = '/pages/:slug/'
 
 [taxonomies]
+  trip = "trips"
   tag = "tags"
   category = "categories"
   site_type = "site-types"
@@ -30,7 +31,7 @@ summaryLength = 25
 
 [[menu.main]]
   name = "Trips"
-  url = "/tags/"
+  url = "/trips/"
   weight = 40
 
 [params]

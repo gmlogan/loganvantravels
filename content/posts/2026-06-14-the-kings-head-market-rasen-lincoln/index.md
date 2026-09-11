@@ -7,7 +7,7 @@ wp_published: 2026-07-08
 categories: campervan
 site-types: Aire
 map: https://maps.app.goo.gl/4sMx456hevyKSQtG9
-tags: []
+trips: []
 ---
 
 14th June 2026
