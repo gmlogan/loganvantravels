@@ -37,7 +37,7 @@ collections:
         direction: descending
     view_groups:
       - { label: Category, field: categories }
-      - { label: 'Site type', field: site_type }
+      - { label: 'Site type', field: site-types }
     fields:
       - { label: Title, name: title, widget: string }
       - { label: Date, name: date, widget: datetime, format: 'YYYY-MM-DD', date_format: 'YYYY-MM-DD', time_format: false }
@@ -46,7 +46,7 @@ collections:
       - { label: Original blog date, name: wp_published, widget: datetime, format: 'YYYY-MM-DD', date_format: 'YYYY-MM-DD', time_format: false, required: false }
       - { label: Category, name: categories, widget: select, multiple: false, required: true,
           options: [campervan, ski, city-break, holiday] }
-      - { label: Site type, name: site_type, widget: select, required: false,
+      - { label: Site type, name: site-types, widget: select, required: false,
           options: [Aire, CAMC, CCC, Independent, Off-Grid, Pub] }
       - { label: Map link, name: map, widget: string, required: false,
           hint: "Any Google Maps share link; shows a 'View on map' button on the post" }

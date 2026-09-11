@@ -18,6 +18,16 @@ summaryLength = 25
   url = "/pages/about/"
   weight = 10
 
+[[menu.main]]
+  name = "Categories"
+  url = "/categories/"
+  weight = 20
+
+[[menu.main]]
+  name = "Site types"
+  url = "/site-types/"
+  weight = 30
+
 [params]
   mainSections = ["posts"]
 
