@@ -53,3 +53,54 @@ collections:
       - { label: Tags, name: tags, widget: list, required: false,
           hint: "Only fill this in when a run of stays is worth calling out as a trip. Use a consistent lowercase-hyphenated name (e.g. 2026-zell-am-see) and copy/paste it into every stay in that trip rather than retyping it, to avoid near-duplicate trip names." }
       - { label: Body, name: body, widget: markdown }
+
+  - name: trip_pages
+    label: Trip pages
+    label_singular: Trip page
+    folder: content/tags
+    path: '{{slug}}/_index'
+    extension: md
+    format: frontmatter
+    create: true
+    media_folder: ''
+    public_folder: ''
+    slug: '{{slug}}'
+    identifier_field: title
+    fields:
+      - { label: Trip name, name: title, widget: string,
+          hint: "Must exactly match the trip name used in a stay's Tags field, e.g. 2026-north-east" }
+      - { label: Intro, name: body, widget: markdown, required: false }
+
+  - name: category_pages
+    label: Category pages
+    label_singular: Category page
+    folder: content/categories
+    path: '{{slug}}/_index'
+    extension: md
+    format: frontmatter
+    create: true
+    media_folder: ''
+    public_folder: ''
+    slug: '{{slug}}'
+    identifier_field: title
+    fields:
+      - { label: Category name, name: title, widget: string,
+          hint: "Must exactly match one of the Category options on a post: campervan, ski, city-break, holiday" }
+      - { label: Intro, name: body, widget: markdown, required: false }
+
+  - name: site_type_pages
+    label: Site type pages
+    label_singular: Site type page
+    folder: content/site-types
+    path: '{{slug}}/_index'
+    extension: md
+    format: frontmatter
+    create: true
+    media_folder: ''
+    public_folder: ''
+    slug: '{{slug}}'
+    identifier_field: title
+    fields:
+      - { label: Site type name, name: title, widget: string,
+          hint: "Must exactly match one of the Site type options on a post: Aire, CAMC, CCC, Independent, Off-Grid, Pub" }
+      - { label: Intro, name: body, widget: markdown, required: false }
