@@ -8,7 +8,7 @@ categories: campervan
 site-types: Independent
 map: ''
 tags:
-  - Murray coast & Aberdeenshire
+  - 2026-north-east
 ---
 
 11th-13th May 2026
