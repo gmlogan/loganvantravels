@@ -7,7 +7,7 @@ wp_published: 2026-05-18
 categories: campervan
 site-types: Aire
 map: ''
-tags:
+trips:
   - 2026-north-east
 ---
 

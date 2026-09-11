@@ -7,7 +7,7 @@ wp_published: 2026-05-11
 categories: campervan
 site-types: Independent
 map: ''
-tags:
+trips:
   - 2026-north-east
 ---
 
