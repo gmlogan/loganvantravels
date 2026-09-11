@@ -9,8 +9,9 @@ summaryLength = 25
   pages = '/pages/:slug/'
 
 [taxonomies]
-  campsite = "campsites"
-  trip = "trips"
+  tag = "tags"
+  category = "categories"
+  site_type = "site-types"
 
 [[menu.main]]
   name = "About"
@@ -18,14 +19,14 @@ summaryLength = 25
   weight = 10
 
 [[menu.main]]
-  name = "Trips"
-  url = "/trips/"
-  weight = 15
+  name = "Categories"
+  url = "/categories/"
+  weight = 20
 
 [[menu.main]]
-  name = "Campsites"
-  url = "/campsites/"
-  weight = 20
+  name = "Site types"
+  url = "/site-types/"
+  weight = 30
 
 [params]
   mainSections = ["posts"]

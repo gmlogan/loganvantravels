@@ -4,10 +4,7 @@ date: 2024-03-12
 draft: false
 slug: craig-croft-aire-12-march-2024
 wp_published: 2024-03-12
-campsites: Aire
 map: ''
-trips:
-  - Ayrshire 2024
 ---
 
 12th March 2024

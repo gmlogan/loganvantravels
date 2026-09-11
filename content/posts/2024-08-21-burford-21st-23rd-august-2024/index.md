@@ -4,7 +4,6 @@ date: 2024-08-21
 draft: false
 slug: burford-21st-23rd-august-2024
 wp_published: 2024-08-22
-campsites: CAMC
 ---
 
 21st-23rd August 2024

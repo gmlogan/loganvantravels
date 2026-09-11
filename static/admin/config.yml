@@ -36,53 +36,20 @@ collections:
         field: date
         direction: descending
     view_groups:
-      - { label: 'Campsite type', field: campsites }
+      - { label: Category, field: categories }
+      - { label: 'Site type', field: site-types }
     fields:
       - { label: Title, name: title, widget: string }
       - { label: Date, name: date, widget: datetime, format: 'YYYY-MM-DD', date_format: 'YYYY-MM-DD', time_format: false }
       - { label: Draft, name: draft, widget: boolean, default: false }
       - { label: Slug, name: slug, widget: string, required: false, hint: "Leave blank to derive from the title" }
       - { label: Original blog date, name: wp_published, widget: datetime, format: 'YYYY-MM-DD', date_format: 'YYYY-MM-DD', time_format: false, required: false }
-      - { label: Campsite type, name: campsites, widget: relation, required: false,
-          collection: campsite_types, search_fields: [title], value_field: title, display_fields: [title],
-          hint: "Manage the list under Campsite types" }
+      - { label: Category, name: categories, widget: select, multiple: false, required: true,
+          options: [campervan, ski, city-break, holiday] }
+      - { label: Site type, name: site-types, widget: select, required: false,
+          options: [Aire, CAMC, CCC, Independent, Off-Grid, Pub] }
       - { label: Map link, name: map, widget: string, required: false,
           hint: "Any Google Maps share link; shows a 'View on map' button on the post" }
-      - { label: Trip, name: trips, widget: relation, required: false, multiple: true,
-          collection: trips, search_fields: [title], value_field: title, display_fields: [title],
-          hint: "Pick from Trips (create the Trip first under the Trips collection)" }
+      - { label: Tags, name: tags, widget: list, required: false,
+          hint: "Only fill this in when a run of stays is worth calling out as a trip. Use a consistent lowercase-hyphenated name (e.g. 2026-zell-am-see) and copy/paste it into every stay in that trip rather than retyping it, to avoid near-duplicate trip names." }
       - { label: Body, name: body, widget: markdown }
-
-  - name: trips
-    label: Trips
-    label_singular: Trip
-    folder: content/trips
-    path: '{{slug}}/_index'
-    extension: md
-    format: frontmatter
-    create: true
-    media_folder: ''
-    public_folder: ''
-    slug: '{{slug}}'
-    identifier_field: title
-    fields:
-      - { label: Trip name, name: title, widget: string,
-          hint: "Type this same text in a stay's Trip field to attach it" }
-      - { label: Summary, name: body, widget: markdown }
-
-  - name: campsite_types
-    label: Campsite types
-    label_singular: Campsite type
-    folder: content/campsites
-    path: '{{slug}}/_index'
-    extension: md
-    format: frontmatter
-    create: true
-    media_folder: ''
-    public_folder: ''
-    slug: '{{slug}}'
-    identifier_field: title
-    fields:
-      - { label: Name, name: title, widget: string,
-          hint: "e.g. CCC, CAMC, Aire — this is what a post's Campsite type field stores" }
-      - { label: Description, name: body, widget: markdown, required: false }

@@ -4,7 +4,6 @@ date: 2026-05-02
 draft: false
 slug: "ltsc-ice-breaker"
 wp_published: 2026-05-05
-campsites: Off-Grid
 ---
 
 2nd-4th May 2026
