@@ -4,10 +4,7 @@ date: 2026-05-13
 draft: false
 slug: findhorn
 wp_published: 2026-05-18
-campsites: Independent
 map: https://maps.app.goo.gl/HP6Si2sArPaWuGru6?g_st=ic
-trips:
-  - North East 2026
 ---
 
 13th-14th May 2026

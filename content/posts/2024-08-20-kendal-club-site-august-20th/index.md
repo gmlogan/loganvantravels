@@ -4,7 +4,6 @@ date: 2024-08-20
 draft: false
 slug: "kendal-club-site-august-20th"
 wp_published: 2024-08-21
-campsites: CCC
 ---
 
 Kendal Caravan and Camping Club Site

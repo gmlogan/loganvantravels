@@ -4,7 +4,6 @@ date: 2025-10-25
 draft: false
 slug: "ltsc-rowing-25-oct-2025"
 wp_published: 2025-11-17
-campsites: Off-Grid
 ---
 
 25th October 2025

@@ -4,10 +4,7 @@ date: 2026-05-14
 draft: false
 slug: black-bull-byre
 wp_published: 2026-05-18
-campsites: Aire
 map: ''
-trips:
-  - North East 2026
 ---
 
 Coldstone near Banchory
