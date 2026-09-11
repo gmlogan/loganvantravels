@@ -28,6 +28,11 @@ summaryLength = 25
   url = "/site-types/"
   weight = 30
 
+[[menu.main]]
+  name = "Trips"
+  url = "/tags/"
+  weight = 40
+
 [params]
   mainSections = ["posts"]
 
