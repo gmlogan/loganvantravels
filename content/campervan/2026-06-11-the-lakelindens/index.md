@@ -15,7 +15,7 @@ Got on site about 2:45pm in a nice flat hard standing pitch looking out to the l
 
 The village of Longhorsley was about 15 min walk away, so a couple pints in the Shoulder of Mutton were called for.
 
-![](the-lakelindens-1-thumb.jpg)
+![](the-lakelindens-1.jpg)
 
 ![](the-lakelindens-2.jpg)
 

@@ -20,7 +20,7 @@ Melrose Gibson Site
 
 https://maps.google.com/?cid=5738316844443429398&entry=gps
 
-![](melrose-1-thumb.jpg)
+![](melrose-1.jpg)
 
 ![](melrose-2.jpg)
 

@@ -18,7 +18,7 @@ The villages round here are just what you imagine, lovely cottage’s in local s
 
 <https://maps.app.goo.gl/XjByP75pivYUmFTQ7?g_st=com.google.maps.preview.copy>
 
-![](burford-21st-23rd-august-2024-1-thumb.jpg)
+![](burford-21st-23rd-august-2024-1.jpg)
 
 ![](burford-21st-23rd-august-2024-2.jpg)
 

@@ -37,17 +37,6 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: npm
-          cache-dependency-path: themes/congo/package-lock.json
-      - name: Install theme CSS build tools
-        run: npm ci
-        working-directory: themes/congo
-      - name: Build theme CSS
-        run: npm run build
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v6

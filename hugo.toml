@@ -1,0 +1,42 @@
+baseURL = 'https://travels.loganfamily.co.uk/'
+locale = 'en-gb'
+title = 'Logan Van Travels'
+theme = 'ananke'
+summaryLength = 25
+
+[permalinks]
+  campervan = '/:slug/'
+  holidays = '/:slug/'
+  pages = '/pages/:slug/'
+
+[taxonomies]
+  trip = "trips"
+  tag = "tags"
+  site_type = "site-types"
+  holiday_type = "holiday-types"
+
+[[menu.main]]
+  name = "About"
+  url = "/pages/about/"
+  weight = 60
+
+[[menu.main]]
+  name = "Site types"
+  url = "/site-types/"
+  weight = 20
+
+[[menu.main]]
+  name = "Holiday types"
+  url = "/holiday-types/"
+  weight = 30
+
+[[menu.main]]
+  name = "Trips"
+  url = "/trips/"
+  weight = 40
+
+[params]
+  mainSections = ["campervan", "holidays"]
+
+[params.ananke.pages]
+  show_list_images = true

@@ -12,7 +12,7 @@ Two nights at the side of Lake Bala.
 
 Cleo a bit spooked as there have been several very low flying planes (looked like replica WWII), hopefully she will settle. Not the best place to walk her from as mostly a path alongside what can be a busy road.
 
-![](glanllyn-bala-wales-2224th-july-2025-1-thumb.jpg)
+![](glanllyn-bala-wales-2224th-july-2025-1.jpg)
 
 ![](glanllyn-bala-wales-2224th-july-2025-2.jpg)
 

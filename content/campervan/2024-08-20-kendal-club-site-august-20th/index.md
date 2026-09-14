@@ -20,7 +20,7 @@ Walked about 20 mins to a small farm shop with good cakes and viewing of the cow
 
 <https://maps.app.goo.gl/vGgzoUDrE2JG5ZWt5?g_st=com.google.maps.preview.copy>
 
-![](kendal-club-site-august-20th-1-thumb.jpg)
+![](kendal-club-site-august-20th-1.jpg)
 
 ![](kendal-club-site-august-20th-2.jpg)
 

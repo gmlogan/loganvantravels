@@ -13,6 +13,6 @@ One night back at Yellowcraigs. This time spot 48 close to toilet block but scre
 Had a great afternoon on the beach with the dog p, perhaps walked too far as my hip is aching this evening.
 
 
-![](yellowcraigs-north-berwick-16-17-july-1-thumb.jpg)
+![](yellowcraigs-north-berwick-16-17-july-1.jpg)
 
 ![](yellowcraigs-north-berwick-16-17-july-2.jpg)
