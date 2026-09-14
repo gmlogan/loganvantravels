@@ -99,9 +99,9 @@ Actions dashboard: <https://github.com/gmlogan/loganvantravels/actions>
 
 ## Notes
 
-- **Theme** is a git submodule (`themes/ananke`). After `git clone` on a new
+- **Theme** is a git submodule (`themes/congo`). After `git clone` on a new
   machine: `git submodule update --init --recursive`. To update it later:
-  `git submodule update --remote themes/ananke` then commit.
+  `git submodule update --remote themes/congo` then commit.
 - `public/` and `resources/` are build output — git-ignored, never committed.
 - Custom-domain config lives in `static/CNAME` + `baseURL` in `hugo.toml`.
   Don't remove `static/CNAME` or Pages drops the domain.

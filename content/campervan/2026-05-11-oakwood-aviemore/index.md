@@ -16,7 +16,7 @@ Start of a week away around the Deeside coast, we think. Only thing booked is 2 
 
 Nice independent site, friendly staff and very clean. I was here about a year ago on my own for 2 days cycling.
 
-![](oakwood-aviemore-1.jpg)
+![](oakwood-aviemore-1-thumb.jpg)
 
 ![](oakwood-aviemore-2.jpg)
 

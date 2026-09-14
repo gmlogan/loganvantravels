@@ -16,7 +16,7 @@ Unfortunately her boat has started to fall apart, not convinced it’s worth rep
 
 After the sailing the club Ben hosted us to a curry meal of homemade dhal and sides.
 
-![](ltsc-ice-breaker-1.jpg)
+![](ltsc-ice-breaker-1-thumb.jpg)
 
 ![](ltsc-ice-breaker-2.jpg)
 

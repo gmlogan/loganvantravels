@@ -21,7 +21,7 @@ Aviemore – Boat of Garten along the spay – over the Slogan pass (apt) to Loc
 <https://maps.app.goo.gl/hA7Nw6kNEoHXbxyEA?g_st=com.google.maps.preview.copy>
 
 
-![](oakwood-aviemore-2324th-april-2025-1.jpg)
+![](oakwood-aviemore-2324th-april-2025-1-thumb.jpg)
 
 ![](oakwood-aviemore-2324th-april-2025-2.jpg)
 

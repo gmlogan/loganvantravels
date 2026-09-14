@@ -24,7 +24,7 @@ We had planned to cycle but it was so windy that we left the bikes in the van, w
 
 Would definitely go back into the area again, maybe at the other end of the bay with the rugged coastline its a great place for a few days.
 
-![](robin-hoods-bay-1.jpg)
+![](robin-hoods-bay-1-thumb.jpg)
 
 ![](robin-hoods-bay-2.jpg)
 

@@ -14,7 +14,7 @@ Lovely small site but no toilet (we knew ahead) of time.
 
 Walked into Mytholmroyd (next to HB itself) with the dog for tea, cake then a pint.
 
-![](hebden-bridge-21st-july-2025-3-1.jpg)
+![](hebden-bridge-21st-july-2025-3-1-thumb.jpg)
 
 ![](hebden-bridge-21st-july-2025-3-2.jpg)
 

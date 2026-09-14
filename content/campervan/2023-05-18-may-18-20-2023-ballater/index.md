@@ -11,7 +11,7 @@ wp_published: 2023-05-20
 Had been there before several years ago after the terrible flood that destroyed it and a lot of the village houses. That was when we did the NC500 having borrowed the Swords van.
 
 
-![](may-18-20-2023-ballater-1.jpg)
+![](may-18-20-2023-ballater-1-thumb.jpg)
 
 ![](may-18-20-2023-ballater-2.jpg)
 

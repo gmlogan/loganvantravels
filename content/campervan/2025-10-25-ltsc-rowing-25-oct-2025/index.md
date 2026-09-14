@@ -14,4 +14,4 @@ Cold enough that the heater was left in low over night.
 
 Likely the last night in the CamperKing as we have ordered an Adria Twin 640 60Y with a shower and built in toilet!!
 
-![](ltsc-rowing-25-oct-2025-1.png)
+![](ltsc-rowing-25-oct-2025-1-thumb.png)
