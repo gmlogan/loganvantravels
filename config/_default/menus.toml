@@ -27,15 +27,24 @@
   url = "/pages/about/"
   weight = 60
 
+
+
 [[main]]
   name = "Site types"
   url = "/site-types/"
   weight = 20
 
 [[main]]
-  name = "Holiday types"
-  url = "/holiday-types/"
-  weight = 30
+  identifier= "Holidays"
+  name = "Holidays"
+  url = "/holidays"
+  weight="30"
+
+[[main]]
+  parent = "Holidays"
+  name = "All"
+  url = "/holidays"
+  weight="30"
 
 [[main]]
   name = "Trips"
