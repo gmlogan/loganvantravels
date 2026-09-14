@@ -44,7 +44,7 @@
   parent="Holidays"
   name="Skiing"
   url="/holiday-types/skiing"
-  weight="20"
+  weight="30"
 
   [[main]]
   parent="Holidays"
