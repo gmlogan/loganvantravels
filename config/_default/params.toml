@@ -3,3 +3,4 @@ mainSections = ["campervan", "holidays"]
 [homepage]
   layout = "page"
   showRecent = true
+  recentLimit = 9
