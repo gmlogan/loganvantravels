@@ -4,7 +4,6 @@ date: 2026-05-11
 draft: false
 slug: oakwood-aviemore
 wp_published: 2026-05-11
-categories: campervan
 site-types: Independent
 map: ''
 trips:
