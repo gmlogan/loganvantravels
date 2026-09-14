@@ -12,7 +12,7 @@ One night stop over. Lovely grassy field area that part of what was a self pick 
 
 No facilities beyond fresh water and Elsa . £10 for the night, and really quiet
 
-![](17-boggs-campsite-1.jpg)
+![](17-boggs-campsite-1-thumb.jpg)
 
 Walked down to The Winton in Transit. Food looked lovely and really nice bar.Note no pavement on walk down.
 

@@ -10,6 +10,22 @@ Run everything below from the project root: `/Users/graham/websites/loganvantrav
 
 ---
 
+## One-time setup (new machine / fresh clone)
+
+The theme's CSS is built with Tailwind and isn't committed to the repo, so
+after cloning (with submodules) run:
+
+```bash
+cd themes/congo && npm install && cd ../..
+npm run build
+```
+
+This writes `assets/css/compiled/main.css` (git-ignored). You only need to
+re-run `npm run build` after editing a layout/template file — plain content
+edits (new posts, front matter) don't need it.
+
+---
+
 ## Everyday cycle
 
 Preview locally while editing (live-reloads on save):
@@ -99,11 +115,12 @@ Actions dashboard: <https://github.com/gmlogan/loganvantravels/actions>
 
 ## Notes
 
-- **Theme** is a git submodule (`themes/ananke`). After `git clone` on a new
+- **Theme** is a git submodule (`themes/congo`). After `git clone` on a new
   machine: `git submodule update --init --recursive`. To update it later:
-  `git submodule update --remote themes/ananke` then commit.
+  `git submodule update --remote themes/congo` then commit.
 - `public/` and `resources/` are build output — git-ignored, never committed.
-- Custom-domain config lives in `static/CNAME` + `baseURL` in `hugo.toml`.
-  Don't remove `static/CNAME` or Pages drops the domain.
+- Custom-domain config lives in `static/CNAME` + `baseURL` in
+  `config/_default/hugo.toml`. Don't remove `static/CNAME` or Pages drops the
+  domain.
 - If the site looks stale right after a deploy, it's browser/CDN cache —
   hard-refresh (Cmd-Shift-R).

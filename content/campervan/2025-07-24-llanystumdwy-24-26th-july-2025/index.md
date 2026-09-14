@@ -20,4 +20,4 @@ Nearest pub about 10 minutes walk and main village about 10 minutes cycle
 
 <https://maps.app.goo.gl/ReVTA5anY6z8DsYN9?g_st=ipc>
 
-![](llanystumdwy-24-26th-july-2025-1.jpg)
+![](llanystumdwy-24-26th-july-2025-1-thumb.jpg)

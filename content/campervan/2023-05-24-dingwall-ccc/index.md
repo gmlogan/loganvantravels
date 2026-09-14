@@ -12,7 +12,7 @@ Part 3 off our 4 days away.
 
 Again a in great site (CCC) and right next to the Ross County stadium.
 
-![](dingwall-ccc-1.jpg)
+![](dingwall-ccc-1-thumb.jpg)
 
 The main reason to be here is to watch St Johnstone play Ross County. 6 goals!! Unfortunately 3 each 🙁
 

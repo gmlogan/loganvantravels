@@ -17,7 +17,7 @@ There is a club house with showers, toilets and sofas round a wood burner. A bit
 
 https://maps.app.goo.gl/V62txx1zYPStL3QP7
 
-![](catrine-house-mauchline-ayrshire-1.jpg)
+![](catrine-house-mauchline-ayrshire-1-thumb.jpg)
 
 ![](catrine-house-mauchline-ayrshire-2.jpg)
 

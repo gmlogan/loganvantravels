@@ -24,7 +24,7 @@ Walked the dog over tho the village (1 pub and 1 shop) through the woods, took a
 
 On leaving in the morning we paid our dues of £10 (bargain) and emptied our grey waste over a grill as directed which turned out to be the slurry pit between two cow sheds.
 
-![](black-bull-byre-1.jpg)
+![](black-bull-byre-1-thumb.jpg)
 
 ![](black-bull-byre-2.jpg)
 

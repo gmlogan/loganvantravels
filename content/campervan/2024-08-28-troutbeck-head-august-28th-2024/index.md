@@ -20,7 +20,7 @@ Dog walks straight from the site into the woods above, would definitely stay aga
 
 <https://maps.google.com/?ftid=0x487ce79b533aa8f1:0x3b1e4dfdc26a0037&entry=gps&lucs=,94224825,94227247,94227248,47071704,47069508,94218641,94203019,47084304,94208458,94208447&g_st=com.google.maps.preview.copy>
 
-![](troutbeck-head-august-28th-2024-1.jpg)
+![](troutbeck-head-august-28th-2024-1-thumb.jpg)
 
 ![](troutbeck-head-august-28th-2024-2.jpg)
 

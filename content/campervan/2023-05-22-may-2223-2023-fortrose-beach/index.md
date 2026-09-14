@@ -12,7 +12,7 @@ Second part of our 4 nights away.
 
 What a lovely site, right on the beach (stones) with the waves blowing on, stunning sunset to the West.
 
-![](may-2223-2023-fortrose-beach-1.jpg)
+![](may-2223-2023-fortrose-beach-1-thumb.jpg)
 
 Noted it was 1/2 the price of Rosemarkie that is 500m away on the other side of the point but with a sandy beach and more shelter from the prevailing westerly wind.
 

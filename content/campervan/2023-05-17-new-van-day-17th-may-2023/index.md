@@ -13,7 +13,7 @@ Really pleased with the way our colour choices worked out and the van drives rea
 
 Now to see if the mound of stuff we have collected in our hallway will fit in it!
 
-![](new-van-day-17th-may-2023-1.jpg)
+![](new-van-day-17th-may-2023-1-thumb.jpg)
 
 ![](new-van-day-17th-may-2023-2.jpg)
 

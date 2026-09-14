@@ -12,7 +12,7 @@ Carfest, Overton Basingstoke, RG25 3HJ
 
 <https://maps.app.goo.gl/Xn41mwrRiMHkLChC8?g_st=com.google.maps.preview.copy>
 
-![](carfest-august-23rd-2024-1.jpg)
+![](carfest-august-23rd-2024-1-thumb.jpg)
 
 ![](carfest-august-23rd-2024-2.jpg)
 

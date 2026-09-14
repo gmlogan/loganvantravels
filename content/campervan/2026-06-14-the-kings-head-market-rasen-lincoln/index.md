@@ -19,7 +19,7 @@ Drove our around d 20 mins from the town centre to The King Head, thought the pl
 
 Had a few in the pub garden then went in for full roast beef dinner for £23 for 2 courses.
 
-![](the-kings-head-market-rasen-lincoln-1.jpg)
+![](the-kings-head-market-rasen-lincoln-1-thumb.jpg)
 
 ![](the-kings-head-market-rasen-lincoln-2.jpg)
 
