@@ -7,7 +7,7 @@ media_folder: ''
 public_folder: ''
 
 collections:
-  - name: pages          # ← added
+  - name: pages
     label: Pages
     label_singular: Page
     folder: content/pages
@@ -22,9 +22,11 @@ collections:
       - { label: Title, name: title, widget: string }
       - { label: Slug, name: slug, widget: string, required: false, hint: "Leave blank to derive from the title" }
       - { label: Body, name: body, widget: markdown }
-  - name: posts
-    label: Posts
-    folder: content/posts
+
+  - name: campervan_trips
+    label: Campervan Trips
+    label_singular: Campervan trip
+    folder: content/campervan
     path: "{{year}}-{{month}}-{{day}}-{{slug}}/index"
     media_folder: ''
     public_folder: ''
@@ -36,7 +38,6 @@ collections:
         field: date
         direction: descending
     view_groups:
-      - { label: Category, field: categories }
       - { label: 'Site type', field: site-types }
     fields:
       - { label: Title, name: title, widget: string }
@@ -44,10 +45,40 @@ collections:
       - { label: Draft, name: draft, widget: boolean, default: false }
       - { label: Slug, name: slug, widget: string, required: false, hint: "Leave blank to derive from the title" }
       - { label: Original blog date, name: wp_published, widget: datetime, format: 'YYYY-MM-DD', date_format: 'YYYY-MM-DD', time_format: false, required: false }
-      - { label: Category, name: categories, widget: select, multiple: false, required: true,
-          options: [campervan, ski, city-break, holiday] }
       - { label: Site type, name: site-types, widget: select, required: false,
           options: [Aire, CAMC, CCC, Independent, Off-Grid, Pub] }
+      - { label: Map link, name: map, widget: string, required: false,
+          hint: "Any Google Maps share link; shows a 'View on map' button on the post" }
+      - { label: Trips, name: trips, widget: list, required: false,
+          hint: "Only fill this in when a run of stays is worth calling out as a trip. Use a consistent lowercase-hyphenated name (e.g. 2026-zell-am-see) and copy/paste it into every stay in that trip rather than retyping it, to avoid near-duplicate trip names." }
+      - { label: Tags, name: tags, widget: list, required: false,
+          hint: "Free-form, ad-hoc labels for linking stays together — no fixed list, use whatever's useful." }
+      - { label: Body, name: body, widget: markdown }
+
+  - name: holidays
+    label: Holidays
+    label_singular: Holiday
+    folder: content/holidays
+    path: "{{year}}-{{month}}-{{day}}-{{slug}}/index"
+    media_folder: ''
+    public_folder: ''
+    create: true
+    slug: "{{slug}}"
+    sortable_fields:
+      fields: [date, title, wp_published]
+      default:
+        field: date
+        direction: descending
+    view_groups:
+      - { label: 'Holiday type', field: holiday-types }
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Date, name: date, widget: datetime, format: 'YYYY-MM-DD', date_format: 'YYYY-MM-DD', time_format: false }
+      - { label: Draft, name: draft, widget: boolean, default: false }
+      - { label: Slug, name: slug, widget: string, required: false, hint: "Leave blank to derive from the title" }
+      - { label: Original blog date, name: wp_published, widget: datetime, format: 'YYYY-MM-DD', date_format: 'YYYY-MM-DD', time_format: false, required: false }
+      - { label: Holiday type, name: holiday-types, widget: select, required: false,
+          options: [Skiing, City break, In the sun, Family] }
       - { label: Map link, name: map, widget: string, required: false,
           hint: "Any Google Maps share link; shows a 'View on map' button on the post" }
       - { label: Trips, name: trips, widget: list, required: false,
@@ -73,23 +104,6 @@ collections:
           hint: "Must exactly match the trip name used in a stay's Trips field, e.g. 2026-north-east" }
       - { label: Intro, name: body, widget: markdown, required: false }
 
-  - name: category_pages
-    label: Category pages
-    label_singular: Category page
-    folder: content/categories
-    path: '{{slug}}/_index'
-    extension: md
-    format: frontmatter
-    create: true
-    media_folder: ''
-    public_folder: ''
-    slug: '{{slug}}'
-    identifier_field: title
-    fields:
-      - { label: Category name, name: title, widget: string,
-          hint: "Must exactly match one of the Category options on a post: campervan, ski, city-break, holiday" }
-      - { label: Intro, name: body, widget: markdown, required: false }
-
   - name: site_type_pages
     label: Site type pages
     label_singular: Site type page
@@ -104,5 +118,22 @@ collections:
     identifier_field: title
     fields:
       - { label: Site type name, name: title, widget: string,
-          hint: "Must exactly match one of the Site type options on a post: Aire, CAMC, CCC, Independent, Off-Grid, Pub" }
+          hint: "Must exactly match one of the Site type options on a campervan post: Aire, CAMC, CCC, Independent, Off-Grid, Pub" }
+      - { label: Intro, name: body, widget: markdown, required: false }
+
+  - name: holiday_type_pages
+    label: Holiday type pages
+    label_singular: Holiday type page
+    folder: content/holiday-types
+    path: '{{slug}}/_index'
+    extension: md
+    format: frontmatter
+    create: true
+    media_folder: ''
+    public_folder: ''
+    slug: '{{slug}}'
+    identifier_field: title
+    fields:
+      - { label: Holiday type name, name: title, widget: string,
+          hint: "Must exactly match one of the Holiday type options on a holiday post: Skiing, City break, In the sun, Family" }
       - { label: Intro, name: body, widget: markdown, required: false }
