@@ -5,54 +5,59 @@
   weight = 10
 
 [[main]]
+  identifier = "campervan-all"
   parent = "campervan"
   name = "All"
   url = "/campervan/"
   weight = 10
 
 [[main]]
+  identifier = "campervan-aire"
   parent = "campervan"
   name = "Aire"
   url = "/site-types/aire/"
   weight = 20
 
 [[main]]
+  identifier = "campervan-independent"
   parent = "campervan"
   name = "Independent"
   url = "/site-types/independent/"
   weight = 30
 
 [[main]]
-  name = "About"
-  url = "/pages/about/"
-  weight = 60
-
-
-[[main]]
-  identifier= "Holidays"
+  identifier = "holidays"
   name = "Holidays"
-  url = "/holidays"
-  weight="20"
+  url = "/holidays/"
+  weight = 20
 
 [[main]]
-  parent = "Holidays"
+  identifier = "holidays-all"
+  parent = "holidays"
   name = "All"
-  url = "/holidays"
-  weight="10"
+  url = "/holidays/"
+  weight = 10
 
 [[main]]
-  parent="Holidays"
-  name="Skiing"
-  url="/holiday-types/skiing"
-  weight="30"
+  identifier = "holidays-city-break"
+  parent = "holidays"
+  name = "City Breaks"
+  url = "/holiday-types/city-break/"
+  weight = 20
 
-  [[main]]
-  parent="Holidays"
-  name="City Breaks"
-  url="/holiday-types/city-break"
-  weight="20"
+[[main]]
+  identifier = "holidays-skiing"
+  parent = "holidays"
+  name = "Skiing"
+  url = "/holiday-types/skiing/"
+  weight = 30
 
 [[main]]
   name = "Trips"
   url = "/trips/"
   weight = 40
+
+[[main]]
+  name = "About"
+  url = "/pages/about/"
+  weight = 60
