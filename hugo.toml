@@ -18,7 +18,7 @@ summaryLength = 25
 [[menu.main]]
   name = "About"
   url = "/pages/about/"
-  weight = 10
+  weight = 60
 
 [[menu.main]]
   name = "Site types"
