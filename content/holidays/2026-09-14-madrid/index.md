@@ -11,3 +11,5 @@ tags: []
 ---
 
 Madrid eventually
+
+![](https://picsum.photos/id/27/1920/1280.webp)
