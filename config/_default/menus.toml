@@ -32,19 +32,25 @@
   identifier= "Holidays"
   name = "Holidays"
   url = "/holidays"
-  weight="30"
+  weight="20"
 
 [[main]]
   parent = "Holidays"
   name = "All"
   url = "/holidays"
-  weight="30"
+  weight="10"
 
 [[main]]
   parent="Holidays"
   name="Skiing"
   url="/holiday-types/skiing"
-  weight="40"
+  weight="20"
+
+  [[main]]
+  parent="Holidays"
+  name="City Breaks"
+  url="/holiday-types/city-break"
+  weight="20"
 
 [[main]]
   name = "Trips"
