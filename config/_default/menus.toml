@@ -1,4 +1,28 @@
 [[main]]
+  identifier = "campervan"
+  name = "Campervan"
+  url = "/campervan/"
+  weight = 10
+
+[[main]]
+  parent = "campervan"
+  name = "All"
+  url = "/campervan/"
+  weight = 10
+
+[[main]]
+  parent = "campervan"
+  name = "Aire"
+  url = "/site-types/aire/"
+  weight = 20
+
+[[main]]
+  parent = "campervan"
+  name = "Independent"
+  url = "/site-types/independent/"
+  weight = 30
+
+[[main]]
   name = "About"
   url = "/pages/about/"
   weight = 60
