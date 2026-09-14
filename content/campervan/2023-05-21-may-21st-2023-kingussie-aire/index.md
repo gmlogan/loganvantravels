@@ -12,7 +12,7 @@ Kingussie, Aire, Highland Horse Fun
 
 Left straight from sailing as a stop off on start of 4 days away.
 
-![](may-21st-2023-kingussie-aire-1-thumb.jpg)
+![](may-21st-2023-kingussie-aire-1.jpg)
 
 Site was basically hard standing next to train line. Toilet stank, water was a garden hose, Not likely to return, but to fair served its job.
 

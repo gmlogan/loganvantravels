@@ -16,4 +16,4 @@ Back in November we made the decision and put a deposit down at the big show at 
 
 The pick up, exchange of the old van along was first rate, can’t fault it so far and working with GMC has been straightforward and very easy.
 
-![](new-van-day-1-thumb.jpg)
+![](new-van-day-1.jpg)

@@ -15,7 +15,7 @@ Simple site in the middle of Galloway Forest Dark Skies area and Red Kite centre
 
 EHU available but went without,  cold water toilet, fresh water, grey waste and normal bins.
 
-![](craig-croft-aire-12-march-2024-1-thumb.jpg)
+![](craig-croft-aire-12-march-2024-1.jpg)
 
 ![](craig-croft-aire-12-march-2024-2.jpg)
 

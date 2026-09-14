@@ -26,7 +26,7 @@ We were going to go along the coast for the next night but we was so windy we he
 
 <https://maps.app.goo.gl/2mwmqVExHWNsABYC7?g_st=ic>
 
-![](findhorn-1-thumb.jpg)
+![](findhorn-1.jpg)
 
 ![](findhorn-2.jpg)
 

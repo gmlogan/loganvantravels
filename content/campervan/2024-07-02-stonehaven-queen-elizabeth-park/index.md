@@ -14,7 +14,7 @@ Lynn was running her pop up  shop which was the main as reason to go and into s
 
 Didn’t actually take any photos so the ones attached are from a New Year visit to the annual fireball event from at least 10 years before
 
-![](stonehaven-queen-elizabeth-park-1-thumb.jpg)
+![](stonehaven-queen-elizabeth-park-1.jpg)
 
 ![](stonehaven-queen-elizabeth-park-2.jpg)
 

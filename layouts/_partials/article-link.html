@@ -1,6 +1,20 @@
 <article class="flex flex-col">
   {{- $images := $.Resources.ByType "image" }}
   {{- $thumbnail := $images.GetMatch (.Params.thumbnail | default "*thumb*") }}
+  {{- if not $thumbnail }}
+    {{/* No thumb/feature-named image and no explicit thumbnail param: fall
+         back to whichever image is embedded first in the post body (read
+         from the raw markdown, since Congo's image render hook rewrites
+         embedded <img> tags to processed derivatives), so authors never
+         have to rename files. */}}
+    {{- with findRE `!\[[^\]]*\]\([^)]+\)` $.RawContent 1 }}
+      {{- $paren := index (findRE `\([^)]+\)` (index . 0) 1) 0 }}
+      {{- $ref := $paren | strings.TrimPrefix "(" | strings.TrimSuffix ")" }}
+      {{- $ref = index (split $ref " ") 0 }}
+      {{- $name := index (split $ref "?") 0 }}
+      {{- $thumbnail = $images.GetMatch $name }}
+    {{- end }}
+  {{- end }}
   {{- $feature := $images.GetMatch (.Params.feature | default "*feature*") | default $thumbnail }}
   {{- with $feature }}
     <a

@@ -20,7 +20,7 @@ Kielder Campsite
 
 https://maps.app.goo.gl/r4VNDA9NisTLpYVAA
 
-![](kielder-campsite-9th-12th-aug-2023-1-thumb.jpg)
+![](kielder-campsite-9th-12th-aug-2023-1.jpg)
 
 ![](kielder-campsite-9th-12th-aug-2023-2.jpg)
 
