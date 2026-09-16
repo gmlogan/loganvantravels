@@ -33,13 +33,29 @@
           src="{{ .Permalink }}"
         />
       {{ else }}
+        {{/* JPEG/TIFF store rotation as EXIF metadata rather than baking it
+             into the pixels, and Hugo's Fill doesn't auto-rotate, so a
+             portrait photo shot sideways gets Filled while still landscape.
+             .Meta.Orientation is 0 for formats/files with no EXIF orientation
+             tag (PNG, WebP, stripped JPEGs, malformed data), so those just
+             fall through with no rotation applied. */}}
+        {{ $rotate := "" }}
+        {{ with .Meta }}
+          {{ if eq .Orientation 3 }}
+            {{ $rotate = " r180" }}
+          {{ else if eq .Orientation 6 }}
+            {{ $rotate = " r270" }}
+          {{ else if eq .Orientation 8 }}
+            {{ $rotate = " r90" }}
+          {{ end }}
+        {{ end }}
         <img
           alt="{{ $.Params.featureAlt | default $.Params.thumbnailAlt | default "" }}"
           class="aspect-[4/3] w-full rounded-md object-cover"
           srcset="
-            {{- (.Fill "480x360 smart").Permalink }}
-            1x, {{- (.Fill "960x720 smart").Permalink }} 2x"
-          src="{{ (.Fill "480x360 smart").Permalink }}"
+            {{- (.Fill (printf "480x360 smart%s" $rotate)).Permalink }}
+            1x, {{- (.Fill (printf "960x720 smart%s" $rotate)).Permalink }} 2x"
+          src="{{ (.Fill (printf "480x360 smart%s" $rotate)).Permalink }}"
           width="480"
           height="360"
           {{ if $.Site.Params.enableImageLazyLoading | default true }}
