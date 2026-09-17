@@ -4,7 +4,7 @@ date: 2026-06-17
 draft: false
 slug: briggswood-farm-derby
 wp_published: 2026-06-17
-site-types: ''
+site-types: Aire
 map: https://maps.app.goo.gl/xDVeaeevyaFZmAMa6
 trips: []
 tags: []
