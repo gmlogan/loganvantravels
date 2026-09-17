@@ -46,7 +46,7 @@ collections:
       - { label: Slug, name: slug, widget: string, required: false, hint: "Leave blank to derive from the title" }
       - { label: Original blog date, name: wp_published, widget: datetime, format: 'YYYY-MM-DD', date_format: 'YYYY-MM-DD', time_format: false, required: false }
       - { label: Site type, name: site-types, widget: select, required: false,
-          options: [Aire, CAMC, CCC, Independent, Off-Grid, Pub] }
+          options: [Aire, CAMC, CCC, Independent, Off-Grid, Pub, Event] }
       - { label: Map link, name: map, widget: string, required: false,
           hint: "Any Google Maps share link; shows a 'View on map' button on the post" }
       - { label: Trips, name: trips, widget: list, required: false,
