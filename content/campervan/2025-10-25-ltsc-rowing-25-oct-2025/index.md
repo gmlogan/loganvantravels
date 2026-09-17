@@ -4,7 +4,7 @@ date: 2025-10-25
 draft: false
 slug: ltsc-rowing-25-oct-2025
 wp_published: 2025-11-17
-site-types: Off-Grid
+site-types: Event
 map: https://maps.app.goo.gl/socVJ5efRHDsbShg9
 trips: []
 tags: []
