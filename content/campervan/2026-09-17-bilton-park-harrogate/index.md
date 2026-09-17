@@ -3,7 +3,7 @@ title: Bilton Park, Harrogate
 date: 2026-06-17
 draft: false
 slug: ''
-wp_published: ''
+wp_published: 2026-06-17
 site-types: ''
 map: https://maps.app.goo.gl/8gCpgGzNWrtkExJq8
 trips: []
@@ -20,7 +20,6 @@ Wandered down to the local Pub that is run the Yorkshire brewer Samual Adams, ho
 
 The pub only sold their own beers, but that included 3 styles of larger that it would hev been rude not to try all of them. Went back the next evening and tested the Ales :-) as well.
 
- 
 ![](834F3AD4-2020-4A9F-9A5D-25795793CFCA_1_102_o.jpeg)
 
 ![](42D1D7C6-A483-45E0-908F-888AC69745F1_1_102_o.jpeg)
