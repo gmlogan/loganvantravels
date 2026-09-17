@@ -1,9 +1,13 @@
 ---
-title: "Carfest"
+title: Carfest
 date: 2024-08-23
 draft: false
-slug: "carfest-august-23rd-2024"
+slug: carfest-august-23rd-2024
 wp_published: 2024-08-25
+site-types: Event
+map: ''
+trips: []
+tags: []
 ---
 
 23rd-26th August 2024
