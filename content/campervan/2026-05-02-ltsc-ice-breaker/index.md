@@ -4,7 +4,7 @@ date: 2026-05-02
 draft: false
 slug: ltsc-ice-breaker
 wp_published: 2026-05-05
-site-types: Off-Grid
+site-types: Event
 map: ''
 trips: []
 tags: []
