@@ -4,9 +4,10 @@ date: 2026-06-14
 draft: false
 slug: the-kings-head-market-rasen-lincoln
 wp_published: 2026-07-08
-site-types: Aire
+site-types: Pub
 map: https://maps.app.goo.gl/4sMx456hevyKSQtG9
 trips: []
+tags: []
 ---
 
 14th June 2026
