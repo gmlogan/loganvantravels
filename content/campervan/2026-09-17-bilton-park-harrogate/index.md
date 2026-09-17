@@ -20,6 +20,10 @@ Wandered down to the local Pub that is run the Yorkshire brewer Samual Adams, ho
 
 The pub only sold their own beers, but that included 3 styles of larger that it would hev been rude not to try all of them. Went back the next evening and tested the Ales :-) as well.
 
+Got a taxi into town for a wander about a few drinks and dinner, once back the sun was down and a fantastic dusk sky.
+
+Next day cycled alomg to Knaresborough (25 mins) had no expectation, but wow and old medival town high on a cliff above a gorge, gorgeous. Just about met my match with the breakfast 'bap'!
+
 ![](834F3AD4-2020-4A9F-9A5D-25795793CFCA_1_102_o.jpeg)
 
 ![](42D1D7C6-A483-45E0-908F-888AC69745F1_1_102_o.jpeg)
