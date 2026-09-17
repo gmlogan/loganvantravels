@@ -2,4 +2,4 @@
 title: CCC
 ---
 
-Caravan and Caravan Club
+Caravan and Caravan Club incuding their Certified Locations.
