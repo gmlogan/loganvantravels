@@ -1,9 +1,13 @@
 ---
-title: "Crofton Hall"
+title: Crofton Hall
 date: 2026-04-23
 draft: false
-slug: "crofton-hall"
+slug: crofton-hall
 wp_published: 2026-04-24
+site-types: CCC
+map: ''
+trips: []
+tags: []
 ---
 
 23rd-24th April 2026
