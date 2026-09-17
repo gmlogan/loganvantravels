@@ -1,9 +1,13 @@
 ---
-title: "Oxon Hall Touring Park"
+title: Oxon Hall Touring Park
 date: 2026-04-22
 draft: false
-slug: "oxon-hall-touring-park"
+slug: oxon-hall-touring-park
 wp_published: 2026-04-23
+site-types: Independent
+map: ''
+trips: []
+tags: []
 ---
 
 22nd-23rd April 2026
