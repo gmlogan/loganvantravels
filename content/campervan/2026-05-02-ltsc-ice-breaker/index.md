@@ -1,9 +1,13 @@
 ---
-title: "LTSC Ice Breaker"
+title: LTSC Ice Breaker
 date: 2026-05-02
 draft: false
-slug: "ltsc-ice-breaker"
+slug: ltsc-ice-breaker
 wp_published: 2026-05-05
+site-types: Off-Grid
+map: ''
+trips: []
+tags: []
 ---
 
 2nd-4th May 2026
