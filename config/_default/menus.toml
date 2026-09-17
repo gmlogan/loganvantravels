@@ -19,32 +19,39 @@
   weight = 20
 
 [[main]]
+  identifier = "campervan-camc"
+  parent = "campervan"
+  name = "CAMC"
+  url = "/site-types/camc/"
+  weight = 30
+
+[[main]]
   identifier = "campervan-ccc"
   parent = "campervan"
   name = "CCC"
   url = "/site-types/ccc/"
-  weight = 30
+  weight = 40
 
 [[main]]
   identifier = "campervan-event"
   parent = "campervan"
   name = "Event"
   url = "/site-types/event/"
-  weight = 40
+  weight = 50
 
 [[main]]
   identifier = "campervan-independent"
   parent = "campervan"
   name = "Independent"
   url = "/site-types/independent/"
-  weight = 50
+  weight = 60
 
 [[main]]
   identifier = "campervan-pub"
   parent = "campervan"
   name = "Pub"
   url = "/site-types/pub/"
-  weight = 60
+  weight = 70
 
 [[main]]
   identifier = "holidays"
