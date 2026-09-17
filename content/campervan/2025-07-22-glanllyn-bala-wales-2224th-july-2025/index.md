@@ -1,9 +1,13 @@
 ---
-title: "Glanllyn Bala, Wales"
+title: Glanllyn Bala, Wales
 date: 2025-07-22
 draft: false
-slug: "glanllyn-bala-wales-2224th-july-2025"
+slug: glanllyn-bala-wales-2224th-july-2025
 wp_published: 2025-07-22
+site-types: Independent
+map: https://maps.app.goo.gl/RaDSosprNGDq8JFp9
+trips: []
+tags: []
 ---
 
 22nd-24th July 2025
