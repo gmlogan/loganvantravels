@@ -4,7 +4,7 @@ date: 2026-06-17
 draft: false
 slug: ''
 wp_published: 2026-06-17
-site-types: ''
+site-types: Independent
 map: https://maps.app.goo.gl/8gCpgGzNWrtkExJq8
 trips: []
 tags: []
