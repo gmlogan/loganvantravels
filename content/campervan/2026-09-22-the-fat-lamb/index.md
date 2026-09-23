@@ -7,7 +7,7 @@ wp_published: ''
 site-types: Pub
 map: https://maps.app.goo.gl/z2Ln651ZUgWxgL3m8?g_st=ic
 trips:
-  - france-2027
+  - france-2026
 tags: []
 ---
 
