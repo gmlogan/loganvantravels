@@ -6,7 +6,8 @@ slug: ''
 wp_published: ''
 site-types: Pub
 map: https://maps.app.goo.gl/z2Ln651ZUgWxgL3m8?g_st=ic
-trips: []
+trips:
+  - france-2027
 tags: []
 ---
 
