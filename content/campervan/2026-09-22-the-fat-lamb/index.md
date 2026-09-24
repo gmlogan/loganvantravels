@@ -3,7 +3,7 @@ title: The Fat Lamb
 date: 2026-09-22
 draft: false
 slug: ''
-wp_published: ''
+wp_published: 2026-09-22
 site-types: Pub
 map: https://maps.app.goo.gl/z2Ln651ZUgWxgL3m8?g_st=ic
 trips:
