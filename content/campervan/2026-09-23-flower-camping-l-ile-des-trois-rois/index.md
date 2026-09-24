@@ -13,4 +13,6 @@ tags: []
 
 12 hours drive from the Fat Lamb including the channel crossing and we are at the first site in France.
 
-Two nights here, by the river Sienne a big site but in a shaded bay between hedges.
+Two nights here, by the river Sienne, a big site but in a shaded bay between hedges.
+
+Had pizza and beer at the onsite cafe once we had setup followed by sitting outside the van in the warm dark evening.
