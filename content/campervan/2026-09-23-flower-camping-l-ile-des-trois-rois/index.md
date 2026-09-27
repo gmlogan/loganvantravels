@@ -15,4 +15,14 @@ tags: []
 
 Two nights here, by the river Sienne, a big site but in a shaded bay between hedges.
 
-Had pizza and beer at the onsite cafe once we had setup followed by sitting outside the van in the warm dark evening.
+Had a pizza and beer at the onsite cafe once we had setup followed by sitting outside the van in the warm dark evening.
+
+In the morning walked up to Chateau Gaillard that Richard The Lion Heart built and in the afternoon cycled a 40 mile round trip to Monets house and gardens with the famous lily pond.![](IMG_5413.webp)
+
+![](IMG_5418.webp)
+
+![](IMG_5427.webp)
+
+![](IMG_5435.webp)
+
+![](IMG_5441.webp)
