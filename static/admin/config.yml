@@ -5,6 +5,15 @@ backend:
 
 media_folder: ''
 public_folder: ''
+media_libraries:
+  default:
+    config:
+      transformations:
+        raster_image:
+          format: webp   # the only output format Sveltia supports
+          quality: 85
+          width: 2560    # maximum size; larger photos are scaled down
+          height: 2560
 
 collections:
   - name: pages
