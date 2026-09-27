@@ -17,7 +17,9 @@ Two nights here, by the river Sienne, a big site but in a shaded bay between hed
 
 Had a pizza and beer at the onsite cafe once we had setup followed by sitting outside the van in the warm dark evening.
 
-In the morning walked up to Chateau Gaillard that Richard The Lion Heart built and in the afternoon cycled a 40 mile round trip to Monets house and gardens with the famous lily pond.![](IMG_5413.webp)
+In the morning walked up to Chateau Gaillard that Richard The Lion Heart built and in the afternoon cycled a 40 mile round trip to Monets house and gardens with the famous lily pond.
+
+Denise not impressed by the route back on the other side of the river (Seine) as basically a track through the trees, but great fun.![](IMG_5413.webp)
 
 ![](IMG_5418.webp)
 
@@ -25,4 +27,4 @@ In the morning walked up to Chateau Gaillard that Richard The Lion Heart built a
 
 ![](IMG_5435.webp)
 
-![](IMG_5441.webp)
+![](IMG_5441.webp)![](405E9C45-9FD9-4ABC-865B-D8E761CFD7B9.webp)
