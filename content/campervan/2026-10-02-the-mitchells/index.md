@@ -22,4 +22,6 @@ On the Wednesday  Denise and I went for a drive to Siorac a medieval town that w
 
 There are several prehistoric sites to visit including a troglodyte settlement in caves.
 
-![](IMG_5519.webp)
+![](IMG_5519.webp)![](IMG_5524.webp)
+
+![](IMG_5522.webp)
