@@ -21,3 +21,5 @@ Bubbles by the pool followed by a fast cycle to the very nice local campsite (Pa
 On the Wednesday  Denise and I went for a drive to Siorac a medieval town that was very busy with tourists then into Dome that sits high above the valley within an ancient valley. 
 
 There are several prehistoric sites to visit including a troglodyte settlement in caves.
+
+![](IMG_5519.webp)
