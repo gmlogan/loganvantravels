@@ -20,4 +20,6 @@ Had a walk about and settled in for the evening, next morning felt cool in the s
 
 Overall 44km including a wander into our town and found the old squares and a few drinks in the late afternoon sun.
 
-![](IMG_5575.webp)
+![](IMG_5575.webp)![](IMG_5552.webp)
+
+![](IMG_5552.webp)
