@@ -16,7 +16,7 @@ out=$(python3 -c "$py" "$title" "$date")
 slug=$(printf '%s\n' "$out" | sed -n 1p)
 pretty=$(printf '%s\n' "$out" | sed -n 2p)
 
-dir="content/posts/${date}-${slug}"
+dir="content/campervan/${date}-${slug}"
 file="$dir/index.md"
 [ -e "$file" ] && { echo "already exists: $file" >&2; exit 1; }
 

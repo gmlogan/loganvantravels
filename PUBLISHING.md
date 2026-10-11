@@ -59,9 +59,14 @@ Add `2026-07-04` as a second argument to date it other than today. Then write
 the body, drop images in that **same folder** (`![](image-1.jpg)`), and run the
 `git add / commit / push` cycle.
 
-**By hand / `hugo new`** — `hugo new content posts/some-place/index.md` uses
-`archetypes/posts.md`; rename the folder to add the `YYYY-MM-DD-` prefix and fix
-the `slug`.
+**By hand / `hugo new`** — `hugo new content campervan/some-place/index.md`
+uses `archetypes/campervan.md`; rename the folder to add the `YYYY-MM-DD-`
+prefix and fix the `slug`.
+
+**Or use the CMS** at `/admin/` (Sveltia CMS): collections for Campervan Trips,
+Holidays, and the intro pages for trips, site types and holiday types. Saving
+commits to `main` and deploys. Photos are converted to WebP (max 2560px) on
+upload; keep any hand-added images at a similar size.
 
 Front matter used on this site:
 
@@ -72,13 +77,18 @@ date: 2026-07-05
 draft: false
 slug: "some-place"
 wp_published: 2026-07-05   # original blog date; = date for new posts
-campsites: CCC             # optional; one of CCC, CAMC, Aire, Independent, Pub, Off-Grid
+site-types: CCC            # optional; Aire, CAMC, CCC, Independent, Off-Grid, Pub, Event
+trips: [2026-north-east]   # optional; must match a content/trips/<name> page
+tags: []                   # optional, free-form
 ---
 ```
 
-`campsites` is a Hugo taxonomy: it builds `/campsites/` (all types) and
-`/campsites/<type>/` (posts of that type), shows as a pill on the post, and is
-linked from the "Campsite types" nav item. Omit the line for no tag.
+Holidays live in `content/holidays/` and use `holiday-types` (Skiing, City
+break, In the sun, Family) instead of `site-types`.
+
+`site-types`, `holiday-types`, `trips` and `tags` are Hugo taxonomies: each
+builds a listing page, shows as a pill on the post, and can have an intro via a
+`_index.md` under `content/<taxonomy>/<term>/`. Omit a line for no value.
 
 ---
 
