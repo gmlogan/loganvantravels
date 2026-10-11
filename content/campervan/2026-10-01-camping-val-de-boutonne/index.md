@@ -6,7 +6,8 @@ slug: ''
 wp_published: ''
 site-types: Independent
 map: https://maps.app.goo.gl/snWHciV7Z8x1nQfp9?g_st=ic
-trips: []
+trips:
+  - France 2026
 tags: []
 ---
 
