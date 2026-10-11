@@ -6,7 +6,8 @@ slug: ''
 wp_published: ''
 site-types: Aire
 map: https://maps.app.goo.gl/qbRfmWkwSuu9JYW6A?g_st=ic
-trips: []
+trips:
+  - France 2026
 tags: []
 ---
 
