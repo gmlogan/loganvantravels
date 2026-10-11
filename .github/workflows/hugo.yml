@@ -51,6 +51,12 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v6
+      - name: Cache Hugo image cache
+        uses: actions/cache@v4
+        with:
+          path: resources/_gen
+          key: hugo-images-${{ github.run_id }}
+          restore-keys: hugo-images-
       - name: Build with Hugo
         run: hugo --gc --minify
       - name: Upload artifact
