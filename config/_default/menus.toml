@@ -74,11 +74,18 @@
   weight = 10
 
 [[main]]
+  identifier = "holidays-in-the-sun"
+  parent = "holidays"
+  name = "In the sun"
+  url = "/holiday-types/in-the-sun/"
+  weight = 20
+
+[[main]]
   identifier = "holidays-city-break"
   parent = "holidays"
   name = "City Breaks"
   url = "/holiday-types/city-break/"
-  weight = 20
+  weight = 50
 
 [[main]]
   identifier = "holidays-skiing"
