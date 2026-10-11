@@ -13,3 +13,5 @@ tags: []
 9-10 October 2026
 
 Campsite that is next to the Tebay services for the night. Power, toilet block behind that a muddy car park. Functional but not very attractive.
+
+![](IMG_5686.webp)
