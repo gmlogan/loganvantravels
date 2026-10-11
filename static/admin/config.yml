@@ -127,7 +127,7 @@ collections:
     identifier_field: title
     fields:
       - { label: Site type name, name: title, widget: string,
-          hint: "Must exactly match one of the Site type options on a campervan post: Aire, CAMC, CCC, Independent, Off-Grid, Pub" }
+          hint: "Must exactly match one of the Site type options on a campervan post: Aire, CAMC, CCC, Event, Independent, Off-Grid, Pub" }
       - { label: Intro, name: body, widget: markdown, required: false }
 
   - name: holiday_type_pages

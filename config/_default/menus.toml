@@ -47,6 +47,13 @@
   weight = 60
 
 [[main]]
+  identifier = "campervan-off-grid"
+  parent = "campervan"
+  name = "Off-Grid"
+  url = "/site-types/off-grid/"
+  weight = 65
+
+[[main]]
   identifier = "campervan-pub"
   parent = "campervan"
   name = "Pub"
@@ -79,6 +86,13 @@
   name = "Skiing"
   url = "/holiday-types/skiing/"
   weight = 30
+
+[[main]]
+  identifier = "holidays-family"
+  parent = "holidays"
+  name = "Family"
+  url = "/holiday-types/family/"
+  weight = 40
 
 [[main]]
   name = "Trips"
