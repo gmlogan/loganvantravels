@@ -22,3 +22,5 @@ Our first encounter with the 'no toilet paper' that is seems is common in many c
 A couple from Northumberland next to us could not get their mains power to work, we tried our cable and onto other posts but to no avail. Luckily they had battery for lights and the main power draw which is the Fridge would run from gas or electric.![](IMG_5511.webp)
 
 ![](IMG_5513.webp)
+
+![](IMG_5514.webp)
