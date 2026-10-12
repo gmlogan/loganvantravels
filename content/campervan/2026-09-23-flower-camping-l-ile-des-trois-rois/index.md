@@ -1,5 +1,5 @@
 ---
-title: Flower Camping l'Ile des Trois Rois
+title: Vezillion
 date: 2026-09-23
 draft: false
 slug: ''
@@ -11,7 +11,7 @@ trips:
 tags: []
 ---
 
-12 hours drive from the Fat Lamb including the channel crossing and we are at the first site in France.
+12 hours drive from the Fat Lamb including the channel crossing and we are at the first site in France, Flower Camping l'Ile des Trois Rois in Verzillion.
 
 Two nights here, by the river Sienne, a big site but in a shaded bay between hedges.
 
