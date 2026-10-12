@@ -1,6 +1,6 @@
 ---
 title: The Mitchells
-date: 2026-09-30
+date: 2026-09-29
 draft: false
 slug: ''
 wp_published: ''
