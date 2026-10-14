@@ -11,4 +11,10 @@ trips:
 tags: []
 ---
 
-3 -  4 October 2026![](IMG_5596.webp)
+3 -  4 October 2026![](IMG_5596.webp)![](IMG_5590.webp)
+
+![](IMG_0014.webp)
+
+![](IMG_5591.webp)
+
+![](IMG_0012.webp)
