@@ -81,7 +81,7 @@
         {{ $height = div $height 2 }}
       {{ end }}
       {{ $noRotate := eq $rotate "" }}
-      {{ if and $webp (ne .MediaType.SubType "gif") }}
+      {{ if and $webp (ne .MediaType.SubType "gif") (ne .MediaType.SubType "webp") }}
         <source
           {{ if lt $width 660 }}
             {{ with .Resize (printf "%dx%d webp%s" $width $height $rotate) }}
@@ -122,17 +122,8 @@
         {{ if and (lt $width 660) $noRotate }}
           src="{{ .Permalink }}"
         {{ else }}
-          src="{{ (.Resize (printf "660x%s" $rotate)).Permalink }}" srcset=" {{- (.Resize (printf "330x%s" $rotate)).Permalink }} 330w,
-          {{- (.Resize (printf "660x%s" $rotate)).Permalink }} 660w
-          {{ if gt $width 1024 }}
-            ,{{ (.Resize (printf "1024x%s" $rotate)).Permalink }} 1024w
-          {{ else if $noRotate }}
-            ,{{ .Permalink }} {{ .Width }}w
-          {{ else }}
-            {{ with .Resize (printf "%dx%d%s" $width $height $rotate) }}
-              ,{{ .Permalink }} {{ .Width }}w
-            {{ end }}
-          {{ end }}
+          src="{{ (.Resize (printf "660x%s" $rotate)).Permalink }}" srcset="{{ (.Resize (printf "660x%s" $rotate)).Permalink }} 660w
+          {{/* ponytail: only 660w + full size are published (was 330/660/1024); keeps the Pages deploy small */}}
           {{ if gt $width 1320 }}
             ,{{ (.Resize (printf "1320x%s" $rotate)).Permalink }} 1320w
           {{ else if $noRotate }}
