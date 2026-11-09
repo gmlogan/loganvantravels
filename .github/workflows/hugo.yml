@@ -36,7 +36,7 @@ jobs:
         uses: actions/checkout@v7
         with:
           submodules: recursive
-          fetch-depth: 0
+          fetch-depth: 1   # no git history needed (enableGitInfo is off)
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
@@ -55,7 +55,9 @@ jobs:
         uses: actions/cache@v4
         with:
           path: resources/_gen
-          key: hugo-images-${{ github.run_id }}
+          # Keyed on what affects image output: unchanged => exact hit, no re-upload.
+          # Any change => restore the newest cache, Hugo only processes what's new, then it's saved under the new key.
+          key: hugo-images-${{ hashFiles('content/**/*.webp', 'content/**/*.jpg', 'content/**/*.jpeg', 'content/**/*.png', 'layouts/**', 'config/**', 'themes/congo/layouts/**') }}
           restore-keys: hugo-images-
       - name: Build with Hugo
         run: hugo --gc --minify
