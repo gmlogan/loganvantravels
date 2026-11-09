@@ -5,144 +5,301 @@ backend:
 
 media_folder: ''
 public_folder: ''
+site_url: https://travels.loganfamily.co.uk
+
+# Sveltia converts uploaded raster images in the browser before saving.
 media_libraries:
   default:
     config:
       transformations:
         raster_image:
-          format: webp   # the only output format Sveltia supports
+          format: webp
           quality: 85
-          width: 2560    # maximum size; larger photos are scaled down
-          height: 2560
+          width: 1200   # max width; smaller images aren't upscaled
 
 collections:
+
+  # ---------------------------------------------------------------- Van Trips
+  - name: van_aire
+    label: "Van Trips: Aire"
+    folder: content/posts            # MATCH EXISTING
+    create: true
+    path: "{{slug}}/index"
+    slug: "{{fields.arrival|date('YYYY-MM-DD')}}-{{fields.title}}"           # MATCH EXISTING (page bundles)
+    media_folder: ""                 # MATCH EXISTING (co-located images)
+    public_folder: ""
+    filter: { field: subcategory, value: aire }
+    fields:
+      - { label: Category, name: category, widget: hidden, default: van-trips }
+      - { label: Subcategory, name: subcategory, widget: hidden, default: aire }
+      # shared fields (all post types)
+      - &f_title { label: Title, name: title, widget: string }
+      - &f_arrival { label: Arrival, name: arrival, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, picker_utc: true }
+      - &f_departure { label: Departure, name: departure, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, picker_utc: true, required: false }
+      - &f_body { label: Write-up, name: body, widget: markdown, editor_components: [image, images, code-block] }
+      - &f_trip { label: Trip, name: trip, widget: relation, collection: trips, value_field: "{{slug}}", search_fields: [title], display_fields: [title], required: false }
+      - &f_map { label: Map link, name: map_link, widget: string, required: false }
+      - &f_address { label: Address, name: address, widget: string, required: false }
+      - &f_country { label: Country, name: country, widget: string, required: false }
+      # van fields (shared by all van subcategories)
+      - &f_facilities { label: Facilities, name: facilities, widget: select, multiple: true, required: false, options: [Water, Waste, Electric hook-up, Toilets, Showers, Wi-Fi] }
+      - &f_cost { label: Cost per night, name: cost_per_night, widget: number, value_type: float, required: false }
+      - &f_rating { label: Rating, name: rating, widget: number, value_type: int, min: 1, max: 5, required: false }
+      # Aire only
+      - { label: Max stay, name: max_stay, widget: string, required: false }
+
+  - name: van_pub
+    label: "Van Trips: Pub"
+    folder: content/posts
+    create: true
+    path: "{{slug}}/index"
+    slug: "{{fields.arrival|date('YYYY-MM-DD')}}-{{fields.title}}"
+    media_folder: ""
+    public_folder: ""
+    filter: { field: subcategory, value: pub }
+    fields:
+      - { label: Category, name: category, widget: hidden, default: van-trips }
+      - { label: Subcategory, name: subcategory, widget: hidden, default: pub }
+      - *f_title
+      - *f_arrival
+      - *f_departure
+      - *f_body
+      - *f_trip
+      - *f_map
+      - *f_address
+      - *f_country
+      - *f_facilities
+      - *f_cost
+      - *f_rating
+      # Pub only
+      - { label: Stopover allowed, name: stopover_allowed, widget: boolean, default: false }
+      - { label: Food rating, name: food_rating, widget: number, value_type: int, min: 1, max: 5, required: false }
+
+  - name: van_ccc
+    label: "Van Trips: CCC"
+    folder: content/posts
+    create: true
+    path: "{{slug}}/index"
+    slug: "{{fields.arrival|date('YYYY-MM-DD')}}-{{fields.title}}"
+    media_folder: ""
+    public_folder: ""
+    filter: { field: subcategory, value: ccc }
+    fields:
+      - { label: Category, name: category, widget: hidden, default: van-trips }
+      - { label: Subcategory, name: subcategory, widget: hidden, default: ccc }
+      - *f_title
+      - *f_arrival
+      - *f_departure
+      - *f_body
+      - *f_trip
+      - *f_map
+      - *f_address
+      - *f_country
+      - *f_facilities
+      - *f_cost
+      - *f_rating
+      # CCC only
+      - { label: Site type, name: site_type, widget: select, options: [Full, Certified Location] }
+
+  - name: van_camc
+    label: "Van Trips: CAMC"
+    folder: content/posts
+    create: true
+    path: "{{slug}}/index"
+    slug: "{{fields.arrival|date('YYYY-MM-DD')}}-{{fields.title}}"
+    media_folder: ""
+    public_folder: ""
+    filter: { field: subcategory, value: camc }
+    fields:
+      - { label: Category, name: category, widget: hidden, default: van-trips }
+      - { label: Subcategory, name: subcategory, widget: hidden, default: camc }
+      - *f_title
+      - *f_arrival
+      - *f_departure
+      - *f_body
+      - *f_trip
+      - *f_map
+      - *f_address
+      - *f_country
+      - *f_facilities
+      - *f_cost
+      - *f_rating
+      # CAMC only
+      - { label: Site type, name: site_type, widget: select, options: [Full, Certified Site] }
+
+  - name: van_event
+    label: "Van Trips: Event"
+    folder: content/posts
+    create: true
+    path: "{{slug}}/index"
+    slug: "{{fields.arrival|date('YYYY-MM-DD')}}-{{fields.title}}"
+    media_folder: ""
+    public_folder: ""
+    filter: { field: subcategory, value: event }
+    fields:
+      - { label: Category, name: category, widget: hidden, default: van-trips }
+      - { label: Subcategory, name: subcategory, widget: hidden, default: event }
+      - *f_title
+      - *f_arrival
+      - *f_departure
+      - *f_body
+      - *f_trip
+      - *f_map
+      - *f_address
+      - *f_country
+      - *f_facilities
+      - *f_cost
+      - *f_rating
+
+  - name: van_parkup
+    label: "Van Trips: Parkup"
+    folder: content/posts
+    create: true
+    path: "{{slug}}/index"
+    slug: "{{fields.arrival|date('YYYY-MM-DD')}}-{{fields.title}}"
+    media_folder: ""
+    public_folder: ""
+    filter: { field: subcategory, value: parkup }
+    fields:
+      - { label: Category, name: category, widget: hidden, default: van-trips }
+      - { label: Subcategory, name: subcategory, widget: hidden, default: parkup }
+      - *f_title
+      - *f_arrival
+      - *f_departure
+      - *f_body
+      - *f_trip
+      - *f_map
+      - *f_address
+      - *f_country
+      - *f_facilities
+      - *f_cost
+      - *f_rating
+
+  - name: van_independent
+    label: "Van Trips: Independent"
+    folder: content/posts
+    create: true
+    path: "{{slug}}/index"
+    slug: "{{fields.arrival|date('YYYY-MM-DD')}}-{{fields.title}}"
+    media_folder: ""
+    public_folder: ""
+    filter: { field: subcategory, value: independent }
+    fields:
+      - { label: Category, name: category, widget: hidden, default: van-trips }
+      - { label: Subcategory, name: subcategory, widget: hidden, default: independent }
+      - *f_title
+      - *f_arrival
+      - *f_departure
+      - *f_body
+      - *f_trip
+      - *f_map
+      - *f_address
+      - *f_country
+      - *f_facilities
+      - *f_cost
+      - *f_rating
+
+  # ----------------------------------------------------------------- Holidays
+  # Subcategory is a plain visible select here (no extra per-subcategory fields).
+  - name: holidays
+    label: Holidays
+    folder: content/posts
+    create: true
+    path: "{{slug}}/index"
+    slug: "{{fields.arrival|date('YYYY-MM-DD')}}-{{fields.title}}"
+    media_folder: ""
+    public_folder: ""
+    filter: { field: category, value: holidays }
+    fields:
+      - { label: Category, name: category, widget: hidden, default: holidays }
+      - { label: Subcategory, name: subcategory, widget: select, options: [{label: Beach, value: beach}, {label: Cottage, value: cottage}, {label: Overseas, value: overseas}] }
+      - *f_title
+      - *f_arrival
+      - *f_departure
+      - *f_body
+      - *f_trip
+      - *f_map
+      - *f_address
+      - *f_country
+      - &f_accom { label: Accommodation name, name: accommodation_name, widget: string, required: false }
+      - &f_booking { label: Booking ref, name: booking_ref, widget: string, required: false }
+      - *f_cost
+
+  # ---------------------------------------------------------------- Ski Trips
+  - name: ski_trips
+    label: Ski Trips
+    folder: content/posts
+    create: true
+    path: "{{slug}}/index"
+    slug: "{{fields.arrival|date('YYYY-MM-DD')}}-{{fields.title}}"
+    media_folder: ""
+    public_folder: ""
+    filter: { field: category, value: ski-trips }
+    fields:
+      - { label: Category, name: category, widget: hidden, default: ski-trips }
+      - *f_title
+      - *f_arrival
+      - *f_departure
+      - *f_body
+      - *f_trip
+      - *f_map
+      - *f_address
+      - *f_country
+      - { label: Resort, name: resort, widget: string }
+      - { label: Lift pass, name: lift_pass, widget: string, required: false }
+      - { label: Piste km, name: piste_km, widget: number, value_type: int, required: false }
+      - *f_accom
+
+  # -------------------------------------------------------------- City Breaks
+  - name: city_breaks
+    label: City Breaks
+    folder: content/posts
+    create: true
+    path: "{{slug}}/index"
+    slug: "{{fields.arrival|date('YYYY-MM-DD')}}-{{fields.title}}"
+    media_folder: ""
+    public_folder: ""
+    filter: { field: category, value: city-breaks }
+    fields:
+      - { label: Category, name: category, widget: hidden, default: city-breaks }
+      - *f_title
+      - *f_arrival
+      - *f_departure
+      - *f_body
+      - *f_trip
+      - *f_map
+      - *f_address
+      - *f_country
+      - *f_accom
+      - *f_booking
+      - { label: Highlights, name: highlights, widget: list, required: false, field: { label: Highlight, name: highlight, widget: string } }
+
+  # -------------------------------------------------------------------- Trips
+  # Overlay, not a category. Posts link to one trip via the optional `trip` relation
+  # above, which stores the trip's slug.
+  - name: trips
+    label: Trips
+    folder: content/trips
+    create: true
+    path: "{{slug}}/index"
+    media_folder: ""
+    public_folder: ""
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Start date, name: start_date, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, picker_utc: true }
+      - { label: End date, name: end_date, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, picker_utc: true, required: false }
+      - { label: Intro, name: body, widget: markdown, editor_components: [image, images, code-block] }
+
+  # -------------------------------------------------------------------- Pages
+  # Standalone pages (About etc.). Served at /<title-slug>/; link them from config/_default/menus.toml.
   - name: pages
     label: Pages
     label_singular: Page
     folder: content/pages
-    path: '{{slug}}/index'
-    media_folder: ''
-    public_folder: ''
     create: true
-    extension: md
-    format: frontmatter
-    slug: '{{slug}}'
+    path: "{{slug}}/index"
+    media_folder: ""
+    public_folder: ""
     fields:
       - { label: Title, name: title, widget: string }
-      - { label: Slug, name: slug, widget: string, required: false, hint: "Leave blank to derive from the title" }
-      - { label: Body, name: body, widget: markdown }
-
-  - name: campervan_trips
-    label: Campervan Trips
-    label_singular: Campervan trip
-    folder: content/campervan
-    path: "{{year}}-{{month}}-{{day}}-{{slug}}/index"
-    media_folder: ''
-    public_folder: ''
-    create: true
-    slug: "{{slug}}"
-    sortable_fields:
-      fields: [date, title, wp_published]
-      default:
-        field: date
-        direction: descending
-    view_groups:
-      - { label: 'Site type', field: site-types }
-    fields:
-      - { label: Title, name: title, widget: string }
-      - { label: Date, name: date, widget: datetime, format: 'YYYY-MM-DD', date_format: 'YYYY-MM-DD', time_format: false }
-      - { label: Draft, name: draft, widget: boolean, default: false }
-      - { label: Slug, name: slug, widget: string, required: false, hint: "Leave blank to derive from the title" }
-      - { label: Original blog date, name: wp_published, widget: datetime, format: 'YYYY-MM-DD', date_format: 'YYYY-MM-DD', time_format: false, required: false }
-      - { label: Site type, name: site-types, widget: select, required: false,
-          options: [Aire, CAMC, CCC, Independent, Off-Grid, Pub, Event] }
-      - { label: Map link, name: map, widget: string, required: false,
-          hint: "Any Google Maps share link; shows a 'View on map' button on the post" }
-      - { label: Trips, name: trips, widget: list, required: false,
-          hint: "Only fill this in when a run of stays is worth calling out as a trip. Use a consistent lowercase-hyphenated name (e.g. 2026-zell-am-see) and copy/paste it into every stay in that trip rather than retyping it, to avoid near-duplicate trip names." }
-      - { label: Tags, name: tags, widget: list, required: false,
-          hint: "Free-form, ad-hoc labels for linking stays together — no fixed list, use whatever's useful." }
       - { label: Body, name: body, widget: markdown, editor_components: [image, images, code-block] }
-
-  - name: holidays
-    label: Holidays
-    label_singular: Holiday
-    folder: content/holidays
-    path: "{{year}}-{{month}}-{{day}}-{{slug}}/index"
-    media_folder: ''
-    public_folder: ''
-    create: true
-    slug: "{{slug}}"
-    sortable_fields:
-      fields: [date, title, wp_published]
-      default:
-        field: date
-        direction: descending
-    view_groups:
-      - { label: 'Holiday type', field: holiday-types }
-    fields:
-      - { label: Title, name: title, widget: string }
-      - { label: Date, name: date, widget: datetime, format: 'YYYY-MM-DD', date_format: 'YYYY-MM-DD', time_format: false }
-      - { label: Draft, name: draft, widget: boolean, default: false }
-      - { label: Slug, name: slug, widget: string, required: false, hint: "Leave blank to derive from the title" }
-      - { label: Original blog date, name: wp_published, widget: datetime, format: 'YYYY-MM-DD', date_format: 'YYYY-MM-DD', time_format: false, required: false }
-      - { label: Holiday type, name: holiday-types, widget: select, required: false,
-          options: [Skiing, City break, In the sun, Family] }
-      - { label: Map link, name: map, widget: string, required: false,
-          hint: "Any Google Maps share link; shows a 'View on map' button on the post" }
-      - { label: Trips, name: trips, widget: list, required: false,
-          hint: "Only fill this in when a run of stays is worth calling out as a trip. Use a consistent lowercase-hyphenated name (e.g. 2026-zell-am-see) and copy/paste it into every stay in that trip rather than retyping it, to avoid near-duplicate trip names." }
-      - { label: Tags, name: tags, widget: list, required: false,
-          hint: "Free-form, ad-hoc labels for linking stays together — no fixed list, use whatever's useful." }
-      - { label: Body, name: body, widget: markdown, editor_components: [image, images, code-block] }
-
-  - name: trip_pages
-    label: Trip pages
-    label_singular: Trip page
-    folder: content/trips
-    path: '{{slug}}/_index'
-    extension: md
-    format: frontmatter
-    create: true
-    media_folder: ''
-    public_folder: ''
-    slug: '{{slug}}'
-    identifier_field: title
-    fields:
-      - { label: Trip name, name: title, widget: string,
-          hint: "Must exactly match the trip name used in a stay's Trips field, e.g. 2026-north-east" }
-      - { label: Intro, name: body, widget: markdown, required: false }
-
-  - name: site_type_pages
-    label: Site type pages
-    label_singular: Site type page
-    folder: content/site-types
-    path: '{{slug}}/_index'
-    extension: md
-    format: frontmatter
-    create: true
-    media_folder: ''
-    public_folder: ''
-    slug: '{{slug}}'
-    identifier_field: title
-    fields:
-      - { label: Site type name, name: title, widget: string,
-          hint: "Must exactly match one of the Site type options on a campervan post: Aire, CAMC, CCC, Event, Independent, Off-Grid, Pub" }
-      - { label: Intro, name: body, widget: markdown, required: false }
-
-  - name: holiday_type_pages
-    label: Holiday type pages
-    label_singular: Holiday type page
-    folder: content/holiday-types
-    path: '{{slug}}/_index'
-    extension: md
-    format: frontmatter
-    create: true
-    media_folder: ''
-    public_folder: ''
-    slug: '{{slug}}'
-    identifier_field: title
-    fields:
-      - { label: Holiday type name, name: title, widget: string,
-          hint: "Must exactly match one of the Holiday type options on a holiday post: Skiing, City break, In the sun, Family" }
-      - { label: Intro, name: body, widget: markdown, required: false }

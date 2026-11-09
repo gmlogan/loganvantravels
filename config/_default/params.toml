@@ -1,6 +1,10 @@
-mainSections = ["campervan", "holidays"]
+mainSections = ["posts"]
 
 [homepage]
   layout = "page"
   showRecent = true
   recentLimit = 9
+
+# Arrival/Departure are shown in the post details list instead of the bare date.
+[article]
+  showDate = false

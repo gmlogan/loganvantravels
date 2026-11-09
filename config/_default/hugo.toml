@@ -4,7 +4,13 @@ locale = 'en-gb'
 title = 'Logan Van Travels'
 summaryLength = 25
 
+# Posts are ordered/grouped by .Date, so use the trip dates as the page date.
+[frontmatter]
+  date = ['arrival', 'start_date', ':default']
+
+[taxonomies]
+  category = 'category'
+  subcategory = 'subcategory'
+
 [permalinks]
-  campervan = '/:slug/'
-  holidays = '/:slug/'
-  pages = '/pages/:slug/'
+  pages = "/:slug/"

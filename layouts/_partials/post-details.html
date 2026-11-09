@@ -1,0 +1,29 @@
+{{- /* Type-specific fields; each only renders when set (empty strings from the CMS are skipped by `with`). */ -}}
+{{- $p := .Params -}}
+{{- $rows := slice -}}
+{{- with $p.address }}{{ $rows = $rows | append (dict "k" "Address" "v" .) }}{{ end -}}
+{{- with $p.country }}{{ $rows = $rows | append (dict "k" "Country" "v" .) }}{{ end -}}
+{{- with $p.facilities }}{{ $rows = $rows | append (dict "k" "Facilities" "v" (delimit . ", ")) }}{{ end -}}
+{{- with $p.cost_per_night }}{{ $rows = $rows | append (dict "k" "Cost per night" "v" (printf "£%v" .)) }}{{ end -}}
+{{- with $p.rating }}{{ $rows = $rows | append (dict "k" "Rating" "v" (printf "%v/5" .)) }}{{ end -}}
+{{- with $p.max_stay }}{{ $rows = $rows | append (dict "k" "Max stay" "v" .) }}{{ end -}}
+{{- if and (isset $p "stopover_allowed") (eq $p.subcategory "pub") }}{{ $rows = $rows | append (dict "k" "Stopover allowed" "v" (cond $p.stopover_allowed "Yes" "No")) }}{{ end -}}
+{{- with $p.food_rating }}{{ $rows = $rows | append (dict "k" "Food rating" "v" (printf "%v/5" .)) }}{{ end -}}
+{{- with $p.site_type }}{{ $rows = $rows | append (dict "k" "Site type" "v" .) }}{{ end -}}
+{{- with $p.accommodation_name }}{{ $rows = $rows | append (dict "k" "Accommodation" "v" .) }}{{ end -}}
+{{- with $p.booking_ref }}{{ $rows = $rows | append (dict "k" "Booking ref" "v" .) }}{{ end -}}
+{{- with $p.resort }}{{ $rows = $rows | append (dict "k" "Resort" "v" .) }}{{ end -}}
+{{- with $p.lift_pass }}{{ $rows = $rows | append (dict "k" "Lift pass" "v" .) }}{{ end -}}
+{{- with $p.piste_km }}{{ $rows = $rows | append (dict "k" "Piste km" "v" .) }}{{ end -}}
+{{- with $p.highlights }}{{ $rows = $rows | append (dict "k" "Highlights" "v" (delimit . ", ")) }}{{ end -}}
+{{- with $p.arrival }}
+<div class="mb-4 text-sm">
+  <div><span class="font-semibold">Arrive:</span> {{ . | time.Format "02-Jan-2006" }}</div>
+  {{- with $p.departure }}<div><span class="font-semibold">Depart:</span> {{ . | time.Format "02-Jan-2006" }}</div>{{ end }}
+</div>
+{{- end }}
+{{- if $rows }}
+<dl class="mb-8 grid max-w-prose grid-cols-[max-content_1fr] gap-x-6 gap-y-1 text-sm">
+  {{- range $rows }}<dt class="font-semibold">{{ .k }}</dt><dd class="m-0">{{ .v }}</dd>{{ end }}
+</dl>
+{{- end }}

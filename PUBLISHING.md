@@ -48,47 +48,35 @@ Live a minute later.
 
 ## New post
 
-**Easiest — the helper script** (names the folder, fills the front matter,
-prefills the date line, opens it in the editor):
+Use the CMS at `/admin/` (Sveltia CMS), then pick the category under **Van Trips**
+(Aire, Pub, CCC, CAMC, Event, Parkup, Independent), **Holidays**, **Ski Trips** or
+**City Breaks**. Saving commits to `main` and deploys. The folder is named
+`YYYY-MM-DD-title` from the arrival date and title, with photos saved beside the post.
+Photos are converted to WebP (max 1200px wide) on upload. Pick "entry" (the post's own
+folder) for images, so they get thumbnails.
 
-```bash
-bin/new-post "The Bell Inn, Somewhere"
-```
+**Pages** (About etc.) and **Trips** have their own collections. New pages need a link
+adding to `config/_default/menus.toml`.
 
-Add `2026-07-04` as a second argument to date it other than today. Then write
-the body, drop images in that **same folder** (`![](image-1.jpg)`), and run the
-`git add / commit / push` cycle.
-
-**By hand / `hugo new`** — `hugo new content campervan/some-place/index.md`
-uses `archetypes/campervan.md`; rename the folder to add the `YYYY-MM-DD-`
-prefix and fix the `slug`.
-
-**Or use the CMS** at `/admin/` (Sveltia CMS): collections for Campervan Trips,
-Holidays, and the intro pages for trips, site types and holiday types. Saving
-commits to `main` and deploys. Photos are converted to WebP (max 2560px) on
-upload; keep any hand-added images at a similar size.
-
-Front matter used on this site:
+By hand: add `content/posts/YYYY-MM-DD-title/index.md` with the front matter below,
+and put images in the same folder (`![](image-1.webp)`).
 
 ```yaml
 ---
 title: "Some Place"
-date: 2026-07-05
-draft: false
-slug: "some-place"
-wp_published: 2026-07-05   # original blog date; = date for new posts
-site-types: CCC            # optional; Aire, CAMC, CCC, Independent, Off-Grid, Pub, Event
-trips: [2026-north-east]   # optional; must match a content/trips/<name> page
-tags: []                   # optional, free-form
+category: van-trips          # van-trips | holidays | ski-trips | city-breaks
+subcategory: ccc             # van-trips: aire pub ccc camc event parkup independent; holidays: beach cottage overseas
+arrival: 2026-07-05
+departure: 2026-07-07        # optional
+trip: 2026-north-east        # optional; a folder name under content/trips
+address: "..."               # optional, plus map_link, country, facilities, cost_per_night, rating
 ---
 ```
 
-Holidays live in `content/holidays/` and use `holiday-types` (Skiing, City
-break, In the sun, Family) instead of `site-types`.
-
-`site-types`, `holiday-types`, `trips` and `tags` are Hugo taxonomies: each
-builds a listing page, shows as a pill on the post, and can have an intro via a
-`_index.md` under `content/<taxonomy>/<term>/`. Omit a line for no value.
+`category` and `subcategory` are Hugo taxonomies: each builds a listing page and is
+used in the menus. Intro text for them is in `content/category/` and
+`content/subcategory/`. Trips are a section (`content/trips/<name>/`), not a taxonomy.
+Posts use `arrival` as their date.
 
 ---
 

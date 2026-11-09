@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <header>
+    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
+    <p class="text-neutral-500 dark:text-neutral-400">{{ .Params.start_date | time.Format "2 Jan 2006" }}{{ with .Params.end_date }} – {{ . | time.Format "2 Jan 2006" }}{{ end }}</p>
+  </header>
+  <section class="prose max-w-full dark:prose-invert"><div class="max-w-prose">{{ .Content }}</div></section>
+  {{ $posts := sort (where site.RegularPages "Params.trip" .File.ContentBaseName) "Params.arrival" }}
+  <section class="mt-8">
+    <div class="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3">
+      {{ range $posts }}{{ partial "article-link.html" . }}{{ end }}
+    </div>
+  </section>
+{{ end }}

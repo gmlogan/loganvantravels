@@ -1,112 +1,119 @@
 [[main]]
-  identifier = "campervan"
-  name = "Campervan"
-  url = "/campervan/"
+  identifier = "van-trips"
+  name = "Van Trips"
+  url = "/category/van-trips/"
   weight = 10
 
 [[main]]
-  identifier = "campervan-all"
-  parent = "campervan"
+  identifier = "van-trips-all"
+  parent = "van-trips"
   name = "All"
-  url = "/campervan/"
+  url = "/category/van-trips/"
   weight = 10
 
 [[main]]
-  identifier = "campervan-aire"
-  parent = "campervan"
+  identifier = "van-aire"
+  parent = "van-trips"
   name = "Aire"
-  url = "/site-types/aire/"
+  url = "/subcategory/aire/"
   weight = 20
 
 [[main]]
-  identifier = "campervan-camc"
-  parent = "campervan"
+  identifier = "van-camc"
+  parent = "van-trips"
   name = "CAMC"
-  url = "/site-types/camc/"
+  url = "/subcategory/camc/"
   weight = 30
 
 [[main]]
-  identifier = "campervan-ccc"
-  parent = "campervan"
+  identifier = "van-ccc"
+  parent = "van-trips"
   name = "CCC"
-  url = "/site-types/ccc/"
+  url = "/subcategory/ccc/"
   weight = 40
 
 [[main]]
-  identifier = "campervan-event"
-  parent = "campervan"
+  identifier = "van-event"
+  parent = "van-trips"
   name = "Event"
-  url = "/site-types/event/"
+  url = "/subcategory/event/"
   weight = 50
 
 [[main]]
-  identifier = "campervan-independent"
-  parent = "campervan"
+  identifier = "van-independent"
+  parent = "van-trips"
   name = "Independent"
-  url = "/site-types/independent/"
+  url = "/subcategory/independent/"
   weight = 60
 
 [[main]]
-  identifier = "campervan-off-grid"
-  parent = "campervan"
-  name = "Off-Grid"
-  url = "/site-types/off-grid/"
-  weight = 65
+  identifier = "van-parkup"
+  parent = "van-trips"
+  name = "Parkup"
+  url = "/subcategory/parkup/"
+  weight = 70
 
 [[main]]
-  identifier = "campervan-pub"
-  parent = "campervan"
+  identifier = "van-pub"
+  parent = "van-trips"
   name = "Pub"
-  url = "/site-types/pub/"
-  weight = 70
+  url = "/subcategory/pub/"
+  weight = 80
 
 [[main]]
   identifier = "holidays"
   name = "Holidays"
-  url = "/holidays/"
+  url = "/category/holidays/"
   weight = 20
 
 [[main]]
   identifier = "holidays-all"
   parent = "holidays"
   name = "All"
-  url = "/holidays/"
+  url = "/category/holidays/"
   weight = 10
 
 [[main]]
-  identifier = "holidays-in-the-sun"
+  identifier = "hol-beach"
   parent = "holidays"
-  name = "In the sun"
-  url = "/holiday-types/in-the-sun/"
+  name = "Beach"
+  url = "/subcategory/beach/"
   weight = 20
 
 [[main]]
-  identifier = "holidays-city-break"
+  identifier = "hol-cottage"
   parent = "holidays"
-  name = "City Breaks"
-  url = "/holiday-types/city-break/"
-  weight = 50
-
-[[main]]
-  identifier = "holidays-skiing"
-  parent = "holidays"
-  name = "Skiing"
-  url = "/holiday-types/skiing/"
+  name = "Cottage"
+  url = "/subcategory/cottage/"
   weight = 30
 
 [[main]]
-  identifier = "holidays-family"
+  identifier = "hol-overseas"
   parent = "holidays"
-  name = "Family"
-  url = "/holiday-types/family/"
+  name = "Overseas"
+  url = "/subcategory/overseas/"
   weight = 40
 
 [[main]]
+  identifier = "ski"
+  name = "Ski Trips"
+  url = "/category/ski-trips/"
+  weight = 30
+
+[[main]]
+  identifier = "city"
+  name = "City Breaks"
+  url = "/category/city-breaks/"
+  weight = 40
+
+[[main]]
+  identifier = "trips"
   name = "Trips"
   url = "/trips/"
-  weight = 40
+  weight = 50
 
 [[main]]
+  identifier = "about"
   name = "About"
-  url = "/pages/about/"
+  url = "/about/"
   weight = 60

@@ -34,6 +34,7 @@
         </div>
       {{ end }}
     </header>
+    {{- with partial "post-details.html" . }}{{ . }}{{ end }}
     <section class="prose mt-0 flex max-w-full flex-col dark:prose-invert lg:flex-row">
       {{ if and (.Params.showTableOfContents | default (.Site.Params.article.showTableOfContents | default false)) (in .TableOfContents "<ul") }}
         <div class="order-first px-0 lg:order-last lg:max-w-xs lg:ps-8">
@@ -47,28 +48,28 @@
       </div>
     </section>
     <footer class="max-w-prose pt-8 print:hidden">
-      {{- with .Params.map }}
+      {{- with .Params.map_link }}
         <p class="mb-4">
           <a href="{{ . }}" target="_blank" rel="noopener" class="text-sm font-semibold text-primary-600 underline dark:text-primary-400">
             View on map
           </a>
         </p>
       {{- end }}
-      {{- $siteTypes := .GetTerms "site-types" }}
-      {{- $trips := .GetTerms "trips" }}
+      {{- $siteTypes := .GetTerms "subcategory" | default (.GetTerms "category") }}
+      {{- $trips := slice }}{{- with .Params.trip }}{{ with site.GetPage (printf "/trips/%s" .) }}{{ $trips = slice . }}{{ end }}{{ end }}
       {{- if or $siteTypes $trips }}
         <ul class="mb-6 flex flex-wrap gap-2 p-0">
           {{- range $siteTypes }}
             <li class="list-none">
               <a href="{{ .RelPermalink }}" class="rounded-full border border-neutral-300 px-3 py-1 text-sm no-underline dark:border-neutral-600">
-                {{- .LinkTitle -}}
+                {{- .LinkTitle | default .Title -}}
               </a>
             </li>
           {{- end }}
           {{- range $trips }}
             <li class="list-none">
               <a href="{{ .RelPermalink }}" class="rounded-full border border-neutral-300 px-3 py-1 text-sm no-underline dark:border-neutral-600">
-                {{- .LinkTitle -}}
+                {{- .LinkTitle | default .Title -}}
               </a>
             </li>
           {{- end }}
