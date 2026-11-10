@@ -1,7 +1,7 @@
 ---
 title: "Kendal Club Site"
 category: van-trips
-subcategory: pub
+subcategory: ccc
 arrival: 2024-08-20
 departure: 2024-08-21
 map_link: "https://maps.app.goo.gl/vGgzoUDrE2JG5ZWt5?g_st=com.google.maps.preview.copy"

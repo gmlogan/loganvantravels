@@ -1,7 +1,7 @@
 ---
 title: "Llanystumdwy"
 category: van-trips
-subcategory: pub
+subcategory: ccc
 arrival: 2025-07-24
 departure: 2025-07-26
 map_link: "https://maps.app.goo.gl/ReVTA5anY6z8DsYN9?g_st=ipc"

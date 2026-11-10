@@ -1,7 +1,7 @@
 ---
 title: "Kielder Campsite"
 category: van-trips
-subcategory: pub
+subcategory: independent
 arrival: 2023-08-09
 departure: 2023-08-12
 map_link: "https://maps.app.goo.gl/r4VNDA9NisTLpYVAA"
