@@ -1,7 +1,7 @@
 ---
 title: "Melrose"
 category: van-trips
-subcategory: independent
+subcategory: camc
 arrival: 2023-08-07
 departure: 2023-08-09
 map_link: "https://www.google.com/maps/search/?api=1&query=Melrose+Gibson%2C+High+St%2C+Melrose+TD6+9RY"

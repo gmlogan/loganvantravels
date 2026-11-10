@@ -1,7 +1,7 @@
 ---
 title: "Troutbeck Head"
 category: van-trips
-subcategory: independent
+subcategory: ccc
 arrival: 2024-08-28
 departure: 2024-08-29
 map_link: "https://www.google.com/maps/search/?api=1&query=Troutbeck%2C+Penrith%2C+Cumbria%2C+CA11+0SS"
