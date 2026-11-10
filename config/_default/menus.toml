@@ -67,53 +67,34 @@
   weight = 20
 
 [[main]]
-  identifier = "holidays-all"
+  identifier = "hol-ski"
   parent = "holidays"
-  name = "All"
-  url = "/category/holidays/"
+  name = "Ski Trips"
+  url = "/category/ski-trips/"
   weight = 10
 
 [[main]]
-  identifier = "hol-beach"
+  identifier = "hol-city"
   parent = "holidays"
-  name = "Beach"
-  url = "/subcategory/beach/"
+  name = "City Breaks"
+  url = "/category/city-breaks/"
   weight = 20
 
 [[main]]
-  identifier = "hol-cottage"
+  identifier = "hol-other"
   parent = "holidays"
-  name = "Cottage"
-  url = "/subcategory/cottage/"
+  name = "Other"
+  url = "/category/holidays/"
   weight = 30
-
-[[main]]
-  identifier = "hol-overseas"
-  parent = "holidays"
-  name = "Overseas"
-  url = "/subcategory/overseas/"
-  weight = 40
-
-[[main]]
-  identifier = "ski"
-  name = "Ski Trips"
-  url = "/category/ski-trips/"
-  weight = 30
-
-[[main]]
-  identifier = "city"
-  name = "City Breaks"
-  url = "/category/city-breaks/"
-  weight = 40
 
 [[main]]
   identifier = "trips"
   name = "Trips"
   url = "/trips/"
-  weight = 50
+  weight = 30
 
 [[main]]
   identifier = "about"
   name = "About"
   url = "/about/"
-  weight = 60
+  weight = 40
