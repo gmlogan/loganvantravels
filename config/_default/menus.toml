@@ -67,6 +67,13 @@
   weight = 20
 
 [[main]]
+  identifier = "hol-all"
+  parent = "holidays"
+  name = "All"
+  url = "/holidays/"
+  weight = 5
+
+[[main]]
   identifier = "hol-ski"
   parent = "holidays"
   name = "Ski Trips"
