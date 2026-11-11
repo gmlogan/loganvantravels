@@ -22,6 +22,8 @@ The Aire had space for 8 vans and ended up being ful for the night. Happend that
 
 Had a walk in the evening round the park of now abandoned chateau and small lake. Quiet night and our first Aire in France, part of the CampingCar Aire network.
 
+EAsy access to grey & black waste dumps and fresh water.
+
 ![](IMG_5596.webp)
 
 ![](IMG_5590.webp)
